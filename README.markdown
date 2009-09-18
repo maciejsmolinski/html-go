@@ -13,9 +13,9 @@ That is typical directory structure I use
 ## Additional information
 
 Some code snippets and concepts are based on: 
-* Blueprint css framework (http://blueprintcss.org) 
-* Gerrit van Aaken's HTML/CSS/JS-Kickstart (http://praegnanz.de/weblog/htmlcssjs-kickstart)
-* HTML5 enabling script for IE (http://remysharp.com/2009/01/07/html5-enabling-script/)
+* `Blueprint css framework` (http://blueprintcss.org) 
+* `Gerrit van Aaken's HTML/CSS/JS-Kickstart` (http://praegnanz.de/weblog/htmlcssjs-kickstart)
+* `HTML5 enabling script for IE` (http://remysharp.com/2009/01/07/html5-enabling-script/)
 
 ## Credits
 
