@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import url(reset.css);
+
+/* -----------------------------------------------------------------------
+
+
+ author: Maciej Smoliński (http://devbubble.net)
+ reset, typography, forms css: blueprint css framework (http://blueprintcss.org)
+ .ie6, .ie7, .js : HTML/CSS/JS-Kickstart by Gerrit van Aaken (http://praegnanz.de) 
+ 
+
+----------------------------------------------------------------------- */
+
+/* site.css */
+
+:focus {outline:0}
+ins {text-decoration: underline}
+del {text-decoration: line-through}
+
+
+#header, #mainnav, #wrap, #footer {width:900px;margin:0 auto}
+#header, #footer {position:relative}
+#logo {position:absolute;top:0;left:0;}
+
+
+/* ie.css */
+
+.js div { }
+.ie7 div { }
+.ie6 div { }
+
+/* ie5-mac.css */
+/*\*//*/
+#header {}
+/**/
+
+/* every except ie5-mac.css */
+/* Hides from IE-mac \*/
+#header {}
+/* End hide from IE-mac */
