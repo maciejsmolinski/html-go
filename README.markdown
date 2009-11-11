@@ -2,6 +2,13 @@
 
 This is a framework I start to work with when creating (x)html/css/js projects
 
+## Branches
+
+Current repository branches
+
+* `master` containt html formatted index.html
+* `html5` containt html formatted index.html5.html
+
 ## Stucture
 
 That is typical directory structure I use
