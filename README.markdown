@@ -6,8 +6,8 @@ This is a framework I start to work with when creating (x)html/css/js projects
 
 Current repository branches
 
-* `master` containt html formatted index.html
-* `html5` containt html formatted index.html5.html
+* `master` contains html formatted index.html
+* `html5` contains html5 formatted index.html5.html
 
 ## Stucture
 
