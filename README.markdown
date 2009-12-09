@@ -20,17 +20,15 @@ That is typical directory structure I use
 * `/images` - site images, remember to optimize them (http://smush.it/)
 * `/docs` - docs&licenses
 
-## The code
+## The code - html
 
-### html
-
-**html 5 doctype**
+**HTML5 doctype**
 
 
-> Firstly, the framework uses html5 doctype and that's why there are two files:
+> Firstly, the framework uses HTML5 doctype and that's why there are two files:
 >
 > * `index.html` with html markup
-> * `index.html5.html` with html5 markup
+> * `index.html5.html` with HTML5 markup
 
 
 **chrome frame**
@@ -79,8 +77,9 @@ That is typical directory structure I use
 > * `jQuery 1.3.2 min` is being served by google
 > * `js/js-engine.js` served locally, that's where the js magic takes place
 
-### CSS
+## The code - CSS
 
+> nothing here, yet!...
 
 ## Branches
 
@@ -88,6 +87,22 @@ Current repository branches
 
 * `master` no desc needed, just read this **README**
 
+## TODO:
+
+* HTML
+    > * work on index.html5.html html5 markup
+    > * index.html5.html elements as index.html divs' IDs
+    > * remove html5shiv js from index.html (there are no html5 tags inside)
+
+* CSS
+    > * clear up CSS
+    > merge print & screen into style.css and use @media instead of
+    > add style-ie.css file for all the .ie6, .ie7 CSS code ?
+    > IE7 `img {-ms-interpolation-mode: bicubic}`
+    
+* else
+    > update readme
+    > add necessary licences
 
 ## Additional information
 
