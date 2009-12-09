@@ -38,10 +38,10 @@ If you like it and/or have any suggestions ? Feel free to contact me/fork projec
 > Next, a little trick to append .js class to the body if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 >
 > * `<script type="text/javascript">document.documentElement.className += " js";</script>`
-  
-  
-  
-  
+    
+    
+    
+    
 **conditional body classes**
 
 
