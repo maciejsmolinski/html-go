@@ -2,10 +2,8 @@
 
 
 You wonder what html-go is ?
-
-
-## About
-
+  
+  
 **html-go** is a bunch of files I start to work with when creating (x)html/css/js projects.  
 The framework is a result of all my work spent with front-end development.  
 
