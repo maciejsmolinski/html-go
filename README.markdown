@@ -60,11 +60,11 @@ That is typical directory structure I use
 * HTML5 support for IE
 
 
-    > Ok.. we've almost reached --EOF-- and we found..
+    > Ok.. we've almost reached --EOF-- and we find:
     >
     > * `<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->`
     >
-    > the script adds very basic support (but does!) for IE browsers
+    > The script adds very basic support (but does!) for IE browsers
 
 
 * javascript
@@ -84,9 +84,9 @@ That is typical directory structure I use
 
 * HTML
 
-    > * work on index.html5.html html5 markup
-    > * index.html5.html elements as index.html divs' IDs
-    > * remove html5shiv js from index.html (there are no html5 tags inside)
+    > * work on `index.html5.html` html5 markup
+    > * `index.html5.html` elements as `index.html` divs' IDs
+    > * remove html5shiv js from `index.html` (there are no html5 tags inside)
     > * use .clearfix !
 
 
