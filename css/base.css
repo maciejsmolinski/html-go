@@ -5,14 +5,14 @@
 /* YUI fonts.css */
 @import url(http://yui.yahooapis.com/3.0.0/build/cssfonts/fonts-min.css);
 
-/*
-@import url(http://yui.yahooapis.com/combo?3.0.0/build/cssfonts/fonts-min.css&3.0.0/build/cssreset/reset-min.css&3.0.0/build/cssbase/base-min.css)
-*/
-
 /* html5.css */
 header, nav, section, article, aside, footer {display:block}
 
+
 img {color:#ccc} /* img alt="" text styling*/
+a:hover, a:active {outline: none}
+ins {text-decoration: underline}
+del {text-decoration: line-through}
 
 h1 {
 	/*18px via YUI Fonts CSS foundation*/
@@ -69,6 +69,5 @@ hr {background:#ddd;color:#ddd;clear:both;float:none;width:100%;height:.1em;marg
 hr.space {background:#fff;color:#fff;}
 
 /* grids.css */
-.showgrid {background:url(../images/grids/grid.png)}
 .showgrid16 {background:url(../images/grids/16_col.gif)}
 .showgrid12 {background:url(../images/grids/12_col.gif)}
