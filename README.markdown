@@ -20,7 +20,7 @@ That is typical directory structure I use
 
 ## The code - HTML
 
-**HTML5 doctype**
+* HTML5 doctype
 
 
 > Firstly, the framework uses HTML5 doctype and that's why there are two files:
@@ -29,7 +29,7 @@ That is typical directory structure I use
 > * `index.html5.html` with HTML5 markup
 
 
-**chrome frame**
+* chrome frame
 
 
 > Then.. We turn [google chrome frame](http://code.google.com/intl/pl-PL/chrome/chromeframe/) ON if user has previously installed it on his computer
@@ -37,7 +37,7 @@ That is typical directory structure I use
 > * `<meta http-equiv="X-UA-Compatible" content="chrome=1">`
 
 
-**javascript support**
+* javascript support
 
 
 > Next, a little trick to append .js class to the body tag if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
@@ -46,7 +46,7 @@ That is typical directory structure I use
 
 
 
-**body ie6/ie7 classes**
+* body ie6/ie7 classes
 
 
 > Basing on [source](http://codecandies.de/2008/12/12/conditional-comments-wenige-requests/) I've added..
@@ -57,7 +57,7 @@ That is typical directory structure I use
 > ..to the body tag
 
 
-**HTML5 support for IE**
+* HTML5 support for IE
 
 
 > Ok.. we've almost reached --EOF-- and we found..
@@ -67,7 +67,7 @@ That is typical directory structure I use
 > the script adds very basic support (but does!) for IE browsers
 
 
-**javascript**
+* javascript
 
 
 > And below we place all our javascript, just to make our site load faster
