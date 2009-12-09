@@ -83,21 +83,25 @@ That is typical directory structure I use
 ## TODO:
 
 * HTML
+
     > * work on index.html5.html html5 markup
     > * index.html5.html elements as index.html divs' IDs
     > * remove html5shiv js from index.html (there are no html5 tags inside)
 
 
 * CSS
+
     > * clear up CSS
     > * merge print & screen into style.css and use @media instead of
     > * add style-ie.css file for all the .ie6, .ie7 CSS code ?
     > * IE7 `img {-ms-interpolation-mode: bicubic}`
 
 * JS
+
     > * add `install google chrome frame` notice for IE
 
 * else
+
     > * update readme (css code, additional info)
     > * add necessary licences if needed
 
