@@ -1,18 +1,18 @@
 # html-banana
 
-You're bored being called web ninja ? 
-You can be a web monkey bouncin' around!
-Why monkey ? Don't ask me, I don't really know (?!) though I have banana for you!
+You're bored being called web ninja ?  
+You can be a web monkey bouncin' around!  
+Why monkey ? Don't ask me, I don't really know (?!) though I have banana for you!  
 
 You wonder what html-banana is ?
 
 
 ## About
 
-**html-banana** is a framework I start to work with when creating (x)html/css/js projects.
-The project is a result of all my work spent with front-end development. 
+**html-banana** is a framework I start to work with when creating (x)html/css/js projects.  
+The project is a result of all my work spent with front-end development.  
 
-I continuously try to improve my code, if you like it and want to suggest some changes - feel free to do it.
+I continuously try to improve my code, if you like it and want to suggest some changes - feel free to do it.  
 
 We can create genetically modified huge bananas tasting like a.. a... bananas ?!
 
@@ -20,7 +20,8 @@ We can create genetically modified huge bananas tasting like a.. a... bananas ?!
 ## The code
 
 
-### 1. doctype
+### -- 1. doctype
+
 
 > Firstly, the framework uses html5 doctype `<!DOCTYPE html>` and that's why there are two files:
 > 
@@ -28,43 +29,38 @@ We can create genetically modified huge bananas tasting like a.. a... bananas ?!
 > * `index.html5.html` with html5 markup
 
 
-### 2. chrome frame
+### -- 2. chrome frame
 
 > Then.. We turn [google chrome frame](http://code.google.com/intl/pl-PL/chrome/chromeframe/) ON if user has previously installed it on his computer
 > 
 > * `<meta http-equiv="X-UA-Compatible" content="chrome=1">`
 
-*[eating banana soup..]*
 
-
-### 3. javascript support
+### -- 3. javascript support
 
 > Next, a little trick to append .js class to the body if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 > 
 > * `<script type="text/javascript">document.documentElement.className += " js";</script>`
 
-*[watching banana TV..]*
 
-
-### 4. conditional body classes
+### -- 4. conditional body classes
 
 > Basing on [source](http://codecandies.de/2008/12/12/conditional-comments-wenige-requests/) I've added
 > 
 > * `.ie6` class for &lt IE7 browsers
 > * `.ie7` class for IE7 browser
 
-*[singin' `billy banana is not my lover...`]*
 
-### 5. code..
+### -- 5. code..
+
 
 > code...
 > code...
 > code...
 
-*[looking for monkey girl on facebook...]*
 
+### -- 6. html5 for IE
 
-### 6. html5 for IE
 
 > Ok.. we've almost reached --EOF-- and we found..
 > 
@@ -72,13 +68,15 @@ We can create genetically modified huge bananas tasting like a.. a... bananas ?!
 > 
 > dear santa... naah.. dear (?) IE! I'm almighty.. just like you.. so I try to force on you 'support' (hahah..) for some basic html5 markup!
 
-### 7. javascript
-> 
+
+### -- 7. javascript
+
+
 > And below we place our javascript, just to make our site load faster
 > 
 > * `jQuery 1.3.2 min` served by google
 > * `js/js-engine.js` served locally, that's where the magic takes place
-> 
+
 
 ## Directory Stucture
 
