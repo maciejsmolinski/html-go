@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* style-ie.css */
+
+
+/* all IE dedicated css: */
+img {-ms-interpolation-mode: bicubic}
+
+
+/* IE7 dedicated css: */
+.ie7 #header { }
+
+
+/* IE6 and lighter dedicated css: */
+.ie6 #header { }
+
+
+/* IE5-mac dedicated css: */
+/*\*//*/
+#header { }
+/**/
+
+
+/* every except IE5-mac dedicated css: */
+/* Hides from IE-mac \*/
+#header { }
+/* End hide from IE-mac */
