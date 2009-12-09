@@ -7,20 +7,24 @@ img {-ms-interpolation-mode: bicubic}
 
 
 /* IE7 dedicated css: */
-.ie7 #header { }
+.ie7 #abstract_element { }
 
 
 /* IE6 and lighter dedicated css: */
-.ie6 #header { }
+.ie6 #abstract_element { }
+
+/* IE5 dedicated css: */
+.ie6 #abstract_element {width:240px} /* IE5 will understand it */
+.ie6 #abstract_element {w\\idth:250px} /* IE5 won't understand it, but IE6 and greater yes */
 
 
 /* IE5-mac dedicated css: */
 /*\*//*/
-#header { }
+#abstract_element { }
 /**/
 
 
 /* every except IE5-mac dedicated css: */
 /* Hides from IE-mac \*/
-#header { }
+#abstract_element { }
 /* End hide from IE-mac */
