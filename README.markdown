@@ -93,9 +93,9 @@ That is typical directory structure I use
 * CSS
 
     > * clear up CSS
-    > * merge print & screen into style.css and use @media instead of
-    > * add style-ie.css file for all the .ie6, .ie7 CSS code ?
-    > * IE7 `img {-ms-interpolation-mode: bicubic}`
+    > * [fixed] merge print & screen into style.css and use @media instead of
+    > * [fixed] add style-ie.css file for all the .ie6, .ie7 CSS code ?
+    > * [fixed] IE7 `img {-ms-interpolation-mode: bicubic}`
 
 * JS
 
