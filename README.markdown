@@ -73,12 +73,12 @@ We can create genetically modified huge bananas tasting like a.. a... bananas ?!
 > dear santa... naah.. dear (?) IE! I'm almighty.. just like you.. so I try to force on you 'support' (hahah..) for some basic html5 markup!
 
 ### 7. javascript
-
+> 
 > And below we place our javascript, just to make our site load faster
 > 
 > * `jQuery 1.3.2 min` served by google
 > * `js/js-engine.js` served locally, that's where the magic takes place
-
+> 
 
 ## Directory Stucture
 
