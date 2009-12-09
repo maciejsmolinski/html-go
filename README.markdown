@@ -1,10 +1,10 @@
-# html-go
+# HTML-go
 
 
-You wonder what html-go is ?
+You wonder what **HTML-go** is, right ?
   
   
-**html-go** is a bunch of files I start to work with when creating (x)html/css/js projects.  
+**HTML-go** is a bunch of files I start to work with when creating (x)html/css/js projects.  
 The framework is a result of all my work spent with front-end development.  
 
 If you like it and/or have any suggestions ? Feel free to contact me or just fork the project.  
@@ -18,14 +18,14 @@ That is typical directory structure I use
 * `/images` - site images, remember to optimize them (http://smush.it/)
 * `/docs` - docs&licenses
 
-## The code - html
+## The code - HTML
 
 **HTML5 doctype**
 
 
 > Firstly, the framework uses HTML5 doctype and that's why there are two files:
 >
-> * `index.html` with html markup
+> * `index.html` with HTML4/XHTML markup
 > * `index.html5.html` with HTML5 markup
 
 
@@ -57,7 +57,7 @@ That is typical directory structure I use
 > ..to the body tag
 
 
-**html5 support for IE**
+**HTML5 support for IE**
 
 
 > Ok.. we've almost reached --EOF-- and we found..
@@ -79,11 +79,6 @@ That is typical directory structure I use
 
 > nothing here, yet!...
 
-## Branches
-
-Current repository branches:
-
-* `master` no desc needed, just read this **README**
 
 ## TODO:
 
@@ -91,16 +86,19 @@ Current repository branches:
     > * work on index.html5.html html5 markup
     > * index.html5.html elements as index.html divs' IDs
     > * remove html5shiv js from index.html (there are no html5 tags inside)
-
+    
 * CSS
     > * clear up CSS
     > merge print & screen into style.css and use @media instead of
     > add style-ie.css file for all the .ie6, .ie7 CSS code ?
     > IE7 `img {-ms-interpolation-mode: bicubic}`
     
+* JS
+    > add `install google chrome frame` notice for IE
+    
 * else
-    > update readme
-    > add necessary licences
+    > update readme (css code, additional info)
+    > add necessary licences if needed
 
 ## Additional information
 
@@ -113,4 +111,4 @@ Some code snippets and concepts are based on:
 
 ## Credits
 
-Created by Maciej Smoliński <http://devbubble.net>. No rights reserved
+Created by Maciej Smoliński (<http://devbubble.net>). No rights reserved
