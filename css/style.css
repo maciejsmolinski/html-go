@@ -13,28 +13,12 @@
 
 /* site.css */
 
-:focus {outline:0}
-ins {text-decoration: underline}
-del {text-decoration: line-through}
 
-
-#header, #mainnav, #wrap, #footer {width:900px;margin:0 auto}
+#header, #mainnav, #wrap, #footer {width:960px;margin:0 auto;padding:0 10px;max-width:940px}
 #header, #footer {position:relative}
 #logo {position:absolute;top:0;left:0;}
 
 
-/* ie.css */
+/* browsers w/ javascript support dedicated css: */
 
-.js div { }
-.ie7 div { }
-.ie6 div { }
-
-/* ie5-mac.css */
-/*\*//*/
-#header {}
-/**/
-
-/* every except ie5-mac.css */
-/* Hides from IE-mac \*/
-#header {}
-/* End hide from IE-mac */
+.js #header { }
