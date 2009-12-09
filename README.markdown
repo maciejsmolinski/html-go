@@ -1,26 +1,21 @@
-# html-banana
+# html-go
 
-You're bored being called web ninja ?  
-You can be a web monkey bouncin' around!  
-Why monkey ? Don't ask me, I don't really know (?!) though I have banana for you!  
 
-You wonder what html-banana is ?
+You wonder what html-go is ?
 
 
 ## About
 
-**html-banana** is a framework I start to work with when creating (x)html/css/js projects.  
-The project is a result of all my work spent with front-end development.  
+**html-go** is a bunch of files I start to work with when creating (x)html/css/js projects.  
+The framework is a result of all my work spent with front-end development.  
 
-I continuously try to improve my code, if you like it and want to suggest some changes - feel free to do it.  
-
-We can create genetically modified huge bananas tasting like a.. a... bananas ?!
+If you like it and/or have any suggestions ? Feel free to contact me/fork project.  
 
 
 ## The code
 
 
-**doctype**
+**html 5 doctype**
 
 
 > Firstly, the framework uses html5 doctype `<!DOCTYPE html>` and that's why there are two files:
@@ -43,8 +38,10 @@ We can create genetically modified huge bananas tasting like a.. a... bananas ?!
 > Next, a little trick to append .js class to the body if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 >
 > * `<script type="text/javascript">document.documentElement.className += " js";</script>`
-
-
+  
+  
+  
+  
 **conditional body classes**
 
 
