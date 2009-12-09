@@ -22,3 +22,18 @@
 /* browsers w/ javascript support dedicated css: */
 
 .js #header { }
+
+@media print {
+    /* only print dedicated css */
+    
+}
+
+@media screen {
+    /* only screen dedicated css */
+
+}
+
+@media handheld {
+    /* only screen dedicated css */
+
+}
