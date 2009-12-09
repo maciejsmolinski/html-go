@@ -23,6 +23,7 @@
 
 .js #header { }
 
+/* media specific css : */
 @media print {
     /* only print dedicated css */
     
@@ -34,6 +35,6 @@
 }
 
 @media handheld {
-    /* only screen dedicated css */
+    /* only handheld dedicated css */
 
 }
