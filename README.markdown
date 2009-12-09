@@ -49,12 +49,12 @@ That is typical directory structure I use
 **body ie6/ie7 classes**
 
 
-> Basing on [source](http://codecandies.de/2008/12/12/conditional-comments-wenige-requests/) I've added
+> Basing on [source](http://codecandies.de/2008/12/12/conditional-comments-wenige-requests/) I've added..
 >
 > * `.ie6` class for <= IE6 browsers
 > * `.ie7` class for IE7 browser
 >
-> to the body tag
+> ..to the body tag
 
 
 **html5 support for IE**
@@ -81,7 +81,7 @@ That is typical directory structure I use
 
 ## Branches
 
-Current repository branches
+Current repository branches:
 
 * `master` no desc needed, just read this **README**
 
@@ -113,4 +113,4 @@ Some code snippets and concepts are based on:
 
 ## Credits
 
-Created by Maciej Smoliński (http://devbubble.net). No rights reserved
+Created by Maciej Smoliński <http://devbubble.net>. No rights reserved
