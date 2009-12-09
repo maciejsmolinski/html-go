@@ -20,7 +20,7 @@ We can create genetically modified huge bananas tasting like a.. a... bananas ?!
 ## The code
 
 
-### -- 1. doctype
+### -- doctype
 
 
 > Firstly, the framework uses html5 doctype `<!DOCTYPE html>` and that's why there are two files:
@@ -29,29 +29,29 @@ We can create genetically modified huge bananas tasting like a.. a... bananas ?!
 > * `index.html5.html` with html5 markup
 
 
-### -- 2. chrome frame
+### -- chrome frame
 
 > Then.. We turn [google chrome frame](http://code.google.com/intl/pl-PL/chrome/chromeframe/) ON if user has previously installed it on his computer
 > 
 > * `<meta http-equiv="X-UA-Compatible" content="chrome=1">`
 
 
-### -- 3. javascript support
+### -- javascript support
 
 > Next, a little trick to append .js class to the body if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 > 
 > * `<script type="text/javascript">document.documentElement.className += " js";</script>`
 
 
-### -- 4. conditional body classes
+### -- conditional body classes
 
 > Basing on [source](http://codecandies.de/2008/12/12/conditional-comments-wenige-requests/) I've added
 > 
-> * `.ie6` class for &lt IE7 browsers
+> * `.ie6` class for <= IE6 browsers
 > * `.ie7` class for IE7 browser
 
 
-### -- 5. code..
+### -- code..
 
 
 > code...
@@ -59,7 +59,7 @@ We can create genetically modified huge bananas tasting like a.. a... bananas ?!
 > code...
 
 
-### -- 6. html5 for IE
+### -- html5 for IE
 
 
 > Ok.. we've almost reached --EOF-- and we found..
@@ -69,7 +69,7 @@ We can create genetically modified huge bananas tasting like a.. a... bananas ?!
 > dear santa... naah.. dear (?) IE! I'm almighty.. just like you.. so I try to force on you 'support' (hahah..) for some basic html5 markup!
 
 
-### -- 7. javascript
+### -- javascript
 
 
 > And below we place our javascript, just to make our site load faster
