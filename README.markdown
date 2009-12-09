@@ -27,24 +27,24 @@ We can create genetically modified huge bananas tasting like a.. a... bananas ?!
 >
 > * `index.html` with html markup
 > * `index.html5.html` with html5 markup
-
-
+  
+  
 > chrome frame
 > 
 > 
 > Then.. We turn [google chrome frame](http://code.google.com/intl/pl-PL/chrome/chromeframe/) ON if user has previously installed it on his computer
 > 
 > * `<meta http-equiv="X-UA-Compatible" content="chrome=1">`
-
-
+  
+  
 > javascript support
 >
 >
 > Next, a little trick to append .js class to the body if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 >
 > * `<script type="text/javascript">document.documentElement.className += " js";</script>`
-
-
+  
+  
 > conditional body classes
 >
 >
@@ -52,14 +52,13 @@ We can create genetically modified huge bananas tasting like a.. a... bananas ?!
 >
 > * `.ie6` class for <= IE6 browsers
 > * `.ie7` class for IE7 browser
-
-
-
+  
+  
 > code...
 > code...
 > code...
-
-
+  
+  
 > html5 for IE
 > 
 >
@@ -68,8 +67,8 @@ We can create genetically modified huge bananas tasting like a.. a... bananas ?!
 > * `<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->`
 >
 > dear santa... naah.. dear (?) IE! I'm almighty.. just like you.. so I try to force on you 'support' (hahah..) for some basic html5 markup!
-
-
+  
+  
 > javascript
 > 
 > 
