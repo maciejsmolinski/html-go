@@ -87,6 +87,7 @@ That is typical directory structure I use
     > * work on index.html5.html html5 markup
     > * index.html5.html elements as index.html divs' IDs
     > * remove html5shiv js from index.html (there are no html5 tags inside)
+    > * use .clearfix !
 
 
 * CSS
