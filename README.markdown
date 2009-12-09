@@ -9,16 +9,25 @@ You wonder what html-go is ?
 **html-go** is a bunch of files I start to work with when creating (x)html/css/js projects.  
 The framework is a result of all my work spent with front-end development.  
 
-If you like it and/or have any suggestions ? Feel free to contact me/fork project.  
+If you like it and/or have any suggestions ? Feel free to contact me or just fork the project.  
 
+## Directory Stucture
+
+That is typical directory structure I use
+
+* `/css` - css stylesheets
+* `/js` - all the javascript
+* `/images` - site images, remember to optimize them (http://smush.it/)
+* `/docs` - docs&licenses
 
 ## The code
 
+### html
 
 **html 5 doctype**
 
 
-> Firstly, the framework uses html5 doctype `<!DOCTYPE html>` and that's why there are two files:
+> Firstly, the framework uses html5 doctype and that's why there are two files:
 >
 > * `index.html` with html markup
 > * `index.html5.html` with html5 markup
@@ -35,14 +44,13 @@ If you like it and/or have any suggestions ? Feel free to contact me/fork projec
 **javascript support**
 
 
-> Next, a little trick to append .js class to the body if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
+> Next, a little trick to append .js class to the body tag if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 >
 > * `<script type="text/javascript">document.documentElement.className += " js";</script>`
-    
-    
-    
-    
-**conditional body classes**
+
+
+
+**body ie6/ie7 classes**
 
 
 > Basing on [source](http://codecandies.de/2008/12/12/conditional-comments-wenige-requests/) I've added
@@ -50,39 +58,28 @@ If you like it and/or have any suggestions ? Feel free to contact me/fork projec
 > * `.ie6` class for <= IE6 browsers
 > * `.ie7` class for IE7 browser
 >
->
-> code...
-> code...
-> code...
+> to the body tag
 
 
-**html5 for IE**
+**html5 support for IE**
 
 
 > Ok.. we've almost reached --EOF-- and we found..
 >
 > * `<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->`
 >
-> dear santa... naah.. dear (?) IE! I'm almighty.. just like you.. so I try to force on you 'support' (hahah..) for some basic html5 markup!
+> the script adds very basic support (but does!) for IE browsers
 
 
 **javascript**
 
 
-> And below we place our javascript, just to make our site load faster
+> And below we place all our javascript, just to make our site load faster
 > 
-> * `jQuery 1.3.2 min` served by google
-> * `js/js-engine.js` served locally, that's where the magic takes place
+> * `jQuery 1.3.2 min` is being served by google
+> * `js/js-engine.js` served locally, that's where the js magic takes place
 
-
-## Directory Stucture
-
-That is typical directory structure I use
-
-* `/css` - css stylesheets
-* `/js` - all the javascript
-* `/images` - site images, remember to optimize them (http://smush.it/)
-* `/docs` - docs&licenses
+### CSS
 
 
 ## Branches
