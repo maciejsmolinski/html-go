@@ -3,25 +3,19 @@
 
 /* -----------------------------------------------------------------------
 
-
  author: Maciej Smoliński (http://devbubble.net)
- reset, typography, forms css: blueprint css framework (http://blueprintcss.org)
- .ie6, .ie7, .js : HTML/CSS/JS-Kickstart by Gerrit van Aaken (http://praegnanz.de) 
- 
+    ... some more credits here...
 
 ----------------------------------------------------------------------- */
 
 /* site.css */
-
-
 #header, #mainnav, #wrap, #footer {width:960px;margin:0 auto;padding:0 10px;max-width:940px}
 #header, #footer {position:relative}
 #logo {position:absolute;top:0;left:0;}
 
 
 /* browsers w/ javascript support dedicated css: */
-
-.js #header { }
+.js #abstract_element { }
 
 /* media specific css : */
 @media print {

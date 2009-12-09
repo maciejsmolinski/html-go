@@ -1,42 +1,32 @@
 @charset "utf-8";
 
-/* YUI reset.css */
+/* YUI reset.css min */
 @import url(http://yui.yahooapis.com/3.0.0/build/cssreset/reset-min.css);
-/* YUI fonts.css */
+/* YUI fonts.css min */
 @import url(http://yui.yahooapis.com/3.0.0/build/cssfonts/fonts-min.css);
 
 /* html5.css */
 header, nav, section, article, aside, footer {display:block}
 
-
+/* misc.css */
 img {color:#ccc} /* img alt="" text styling*/
-a:hover, a:active {outline: none}
-ins {text-decoration: underline}
-del {text-decoration: line-through}
+a:hover, a:active {outline: none} /* remove anchor outlines without impact on accesibility */
+hr {background:#ddd;color:#ddd;clear:both;float:none;width:100%;height:.1em;margin:1.45em 0;border:none;}
+hr.no_margin {margin:0 0 1.45em}
+hr.space {background:#fff;color:#fff;}
+abbr[title], acronym[title] {border-bottom: 1px dotted #888 !important;cursor: help;}
+a abbr, a acronym {cursor: pointer !important;}
+em {font-style: italic}
+label, input[type=button], input[type=submit], button {cursor: pointer}
 
-h1 {
-	/*18px via YUI Fonts CSS foundation*/
-	font-size:138.5%;  
-}
-h2 {
-	/*16px via YUI Fonts CSS foundation*/
-	font-size:123.1%; 
-}
-h3 {
-	/*14px via YUI Fonts CSS foundation*/
-	font-size:108%;  
-}
-h1,h2,h3 {
-	/* top & bottom margin based on font size */
-	margin:1em 0;
-}
-h1,h2,h3,h4,h5,h6,strong {
-	/*bringing boldness back to headers and the strong element*/
-	font-weight:bold; 
+/* headers.css */
+h1 {font-size:138.5%} /*18px via YUI Fonts CSS foundation*/
+h2 {font-size:123.1%} /*16px via YUI Fonts CSS foundation*/
+h3 {font-size:108%} /*14px via YUI Fonts CSS foundation*/
+h1,h2,h3 {margin:1em 0} /* top & bottom margin based on font size */
+h1,h2,h3,h4,h5,h6,strong {font-weight:bold} /*bringing boldness back to headers and the strong element*/
 
-
-.small {font-size:.8em;margin-bottom:1.875em;line-height:1.875em;}
-.large {font-size:1.2em;line-height:2.5em;margin-bottom:1.25em;}
+/* TODO: think of these elements if they are necessary */
 .hide {display:none;}
 .quiet {color:#666;}
 .loud {color:#000;}
@@ -48,7 +38,7 @@ h1,h2,h3,h4,h5,h6,strong {
 .top {margin-top:0;padding-top:0;}
 .bottom {margin-bottom:0;padding-bottom:0;}
 
-/* forms.css */
+/* messages.css */
 .error, .notice, .success {padding:.8em;margin-bottom:1em;border:2px solid #ddd;}
 .error {background:#FBE3E4;color:#8a1f11;border-color:#FBC2C4;}
 .notice {background:#FFF6BF;color:#514721;border-color:#FFD324;}
@@ -61,12 +51,8 @@ h1,h2,h3,h4,h5,h6,strong {
 .left {float:left}
 .right {float:right}    
 .clear {clear:both;width:0;height:0;font-size:0;overflow:hidden}
-.clearfix:after, .container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
-.clearfix, .container {display:block;}
-
-/* other.css */
-hr {background:#ddd;color:#ddd;clear:both;float:none;width:100%;height:.1em;margin:0 0 1.45em;border:none;}
-hr.space {background:#fff;color:#fff;}
+.clearfix:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix {display:block;}
 
 /* grids.css */
 .showgrid16 {background:url(../images/grids/16_col.gif)}
