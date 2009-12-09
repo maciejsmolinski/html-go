@@ -1,6 +1,7 @@
 # html-banana
 
-You're bored being called web ninja ? You can be a web monkey bouncin' around!
+You're bored being called web ninja ? 
+You can be a web monkey bouncin' around!
 Why monkey ? Don't ask me, I don't really know (?!) though I have banana for you!
 
 You wonder what html-banana is ?
