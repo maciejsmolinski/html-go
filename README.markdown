@@ -82,6 +82,9 @@ That is typical directory structure I use
 
 ## TODO:
 
+**each category solved => version + 0.1**
+*each point in category solved => version + 0.0.1*
+
 * HTML
 
     > * work on `index.html5.html` html5 markup
@@ -101,6 +104,7 @@ That is typical directory structure I use
 * JS
 
     > * add `install google chrome frame` notice for IE
+    > * clear up & comment `js-engine.js` file
 
 * else
 
