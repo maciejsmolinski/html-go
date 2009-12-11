@@ -96,6 +96,7 @@ That is typical directory structure I use
 * CSS
 
     > * clear up CSS
+    > * add info how to scale fonts
     > * comment CSS and put licensing info
     > * [fixed] merge print & screen into style.css and use @media instead of
     > * [fixed] add style-ie.css file for all the .ie6, .ie7 CSS code ?
@@ -108,15 +109,16 @@ That is typical directory structure I use
 
 * else
 
-    > * update readme (css code, additional info)
+    > * write documentation => update readme (css code, additional info etc.)
     > * add necessary licenses if needed
 
 ## Additional information
 
 Some code snippets and concepts are based on:
 
-* [Blueprint css framework](http://blueprintcss.org) 
-* [Gerrit van Aaken's HTML/CSS/JS-Kickstart](http://praegnanz.de/weblog/htmlcssjs-kickstart)
+* YUI (reset&fonts)
+* (not sure if still necessary) [Blueprint css framework](http://blueprintcss.org) 
+* (not sure if still necessary) [Gerrit van Aaken's HTML/CSS/JS-Kickstart](http://praegnanz.de/weblog/htmlcssjs-kickstart)
 * [HTML5 enabling script for IE](http://remysharp.com/2009/01/07/html5-enabling-script/)
 
 
