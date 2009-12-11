@@ -82,7 +82,7 @@ That is typical directory structure I use
 
 ## TODO:
 
-**each category solved => version + 0.1**
+**each category solved => version + 0.1**  
 *each point in category solved => version + 0.0.1*
 
 * HTML
