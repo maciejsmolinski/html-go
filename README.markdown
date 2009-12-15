@@ -86,8 +86,8 @@ That is typical directory structure I use
 
 * HTML
 
-    > * work on `index.html5.html` html5 markup
-    > * `index.html5.html` elements as `index.html` divs' IDs
+    > * [fixed] work on `index.html5.html` html5 markup
+    > * [fixed] `index.html5.html` elements as `index.html` divs' IDs
     > * [removed issue] => (actually somebody may want use some html5 markup inside the file) remove html5shiv js from `index.html` (there are no html5 tags inside)
     > * [fixed] use .clearfix !
 
@@ -95,7 +95,7 @@ That is typical directory structure I use
 * CSS
 
     > * messages CSS - delete if unnecessary
-    > * margins&paddings - do they need `!important` rule ?
+    > * margins&paddings - check if they need `!important` rule ?
     > * [fixed] clear up CSS
     > * [fixed] add info how to scale fonts
     > * [fixed] comment CSS and put licensing info [licensing in LICENSE file]
