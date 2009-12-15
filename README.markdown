@@ -81,37 +81,13 @@ That is typical directory structure I use
 
 ## TODO:
 
-**each category solved => version + 0.1**  
-*each point in category solved => version + 0.0.1*
-
-* HTML
-
-    > * [fixed] work on `index.html5.html` html5 markup
-    > * [fixed] `index.html5.html` elements as `index.html` divs' IDs
-    > * [removed issue] => (actually somebody may want use some html5 markup inside the file) remove html5shiv js from `index.html`
-    > * [fixed] use .clearfix !
-
-
-* CSS
-
-    > * [removed issue] => (messages stay) messages CSS - delete if unnecessary
-    > * [fixed] => (YES) margins&paddings - check if they need `!important` rule ?
-    > * [fixed] clear up CSS
-    > * [fixed] add info how to scale fonts
-    > * [fixed] comment CSS and put licensing info [licensing in LICENSE file]
-    > * [fixed] merge print & screen into style.css and use @media instead of
-    > * [fixed] add style-ie.css file for all the .ie6, .ie7 CSS code ?
-    > * [fixed] IE7 `img {-ms-interpolation-mode: bicubic}`
-
 * JS
 
     > * add `install google chrome frame` notice for IE
-    > * [fixed] clear up & comment `js-engine.js` file
 
 * else
 
     > * write documentation => update readme (css code, additional info etc.)
-    > * add necessary licenses if needed
 
 ## Additional information
 
