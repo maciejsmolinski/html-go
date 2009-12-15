@@ -16,7 +16,6 @@ That is typical directory structure I use
 * `/css` - css stylesheets
 * `/js` - all the javascript
 * `/images` - site images, remember to optimize them (http://smush.it/)
-* `/docs` - docs&licenses
 
 ## The code - HTML
 
@@ -95,9 +94,9 @@ That is typical directory structure I use
 
 * CSS
 
-    > * clear up CSS
-    > * add info how to scale fonts
-    > * comment CSS and put licensing info
+    > * [fixed] clear up CSS
+    > * [fixed] add info how to scale fonts
+    > * [fixed] comment CSS and put licensing info [licensing in LICENSE file]
     > * [fixed] merge print & screen into style.css and use @media instead of
     > * [fixed] add style-ie.css file for all the .ie6, .ie7 CSS code ?
     > * [fixed] IE7 `img {-ms-interpolation-mode: bicubic}`
