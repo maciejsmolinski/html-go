@@ -1,30 +1,28 @@
 @charset "utf-8";
-/* style-ie.css */
-
 
 /* all IE dedicated css: */
 img {-ms-interpolation-mode: bicubic}
 
 
 /* IE7 dedicated css: */
-.ie7 #abstract_element { }
+.ie7 div { }
 
 
 /* IE6 and lighter dedicated css: */
-.ie6 #abstract_element { }
+.ie6 div { }
 
 /* IE5 dedicated css: */
-.ie6 #abstract_element {width:240px} /* IE5 will understand it */
-.ie6 #abstract_element {w\\idth:250px} /* IE5 won't understand it, but IE6 and greater yes */
+.ie6 div {width:240px} /*value for IE5*/
+.ie6 div {w\\idth:250px} /*restoring valid value for IE6*/
 
 
 /* IE5-mac dedicated css: */
 /*\*//*/
-#abstract_element { }
+div { }
 /**/
 
 
 /* every except IE5-mac dedicated css: */
 /* Hides from IE-mac \*/
-#abstract_element { }
+div { }
 /* End hide from IE-mac */
