@@ -10,7 +10,6 @@
 .clear {overflow:hidden}
 .clearfix:after {content:"\0020";line-height:0}
 .clear, .clearfix:after {clear:both;display:block;width:0;height:0;font-size:0;visibility:hidden}
-.clearfix {display: inline-block}
 
 /* grids css */
 .showgrid16 {background:url(../images/grids/16_col.gif)}
@@ -33,7 +32,7 @@ header, nav, section, article, aside, footer {display:block}
 .top {margin-top:0;padding-top:0}
 .bottom {margin-bottom:0;padding-bottom:0}
 
-/* [TODO] think if necessary => messages css: */
+/* messages css: */
 .error, .notice, .success {padding:.8em;margin-bottom:1em;border:2px solid #ddd}
 .error {background:#FBE3E4;color:#8a1f11;border-color:#FBC2C4}
 .notice {background:#FFF6BF;color:#514721;border-color:#FFD324}
