@@ -21,7 +21,7 @@ h2 {font-size:123.1%} /*16px via YUI Fonts CSS foundation*/
 h3 {font-size:108%} /*14px via YUI Fonts CSS foundation*/
 h1,h2,h3 {margin:1em 0} /*top & bottom margin based on font size*/
 h1,h2,h3,h4,h5,h6,strong {font-weight:bold} /*bringing boldness back to headers and the strong element*/
-/* how to calculate font sizes: http://developer.yahoo.com/yui/3/examples/cssfonts/cssfonts-size.html*/
+/* how to calculate font sizes: http://developer.yahoo.com/yui/3/cssfonts/#fontsize */
 
 /* html5 css: */
 header, nav, section, article, aside, footer {display:block}
