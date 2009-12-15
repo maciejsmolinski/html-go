@@ -81,6 +81,10 @@ That is typical directory structure I use
 
 ## TODO:
 
+* CSS
+    
+    > * add margins for headers, paragraphs etc (if needed)
+
 * JS
 
     > * add `install google chrome frame` notice for IE
