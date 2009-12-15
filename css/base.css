@@ -43,6 +43,7 @@ header, nav, section, article, aside, footer {display:block}
 
 /* misc css: */
 .hide {display:none}
+a {text-decoration:none}
 a:hover, a:active {outline: none} /*remove anchor outlines without impact on accesibility*/
 a abbr, a acronym {cursor: pointer !important}
 abbr[title], acronym[title] {border-bottom: 1px dotted #888 !important;cursor: help}
