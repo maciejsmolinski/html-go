@@ -6,10 +6,11 @@
 
 /* floats css */
 .left {float:left}
-.right {float:right}    
-.clear {clear:both;width:0;height:0;font-size:0;overflow:hidden}
-.clearfix:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
-.clearfix {display:block;}
+.right {float:right}
+.clear {overflow:hidden}
+.clearfix:after {content:"\0020";line-height:0}
+.clear, .clearfix:after {clear:both;display:block;width:0;height:0;font-size:0;visibility:hidden}
+.clearfix {display: inline-block}
 
 /* grids css */
 .showgrid16 {background:url(../images/grids/16_col.gif)}
