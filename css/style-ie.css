@@ -18,7 +18,7 @@ img {-ms-interpolation-mode: bicubic}
 
 /* IE5-mac dedicated css: */
 /*\*//*/
-div { }
+.clearfix {display:inline-block}
 /**/
 
 
