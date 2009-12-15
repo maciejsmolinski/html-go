@@ -95,6 +95,7 @@ That is typical directory structure I use
 * CSS
 
     > * messages CSS - delete if unnecessary
+    > * margins&paddings - do they need `!important` rule ?
     > * [fixed] clear up CSS
     > * [fixed] add info how to scale fonts
     > * [fixed] comment CSS and put licensing info [licensing in LICENSE file]
