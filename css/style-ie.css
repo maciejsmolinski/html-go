@@ -24,5 +24,6 @@ div { }
 
 /* every except IE5-mac dedicated css: */
 /* Hides from IE-mac \*/
-div { }
+* html .clearfix {height:1%}
+.clearfix {display:block}
 /* End hide from IE-mac */
