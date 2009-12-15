@@ -105,7 +105,7 @@ That is typical directory structure I use
 * JS
 
     > * add `install google chrome frame` notice for IE
-    > * clear up & comment `js-engine.js` file
+    > * [fixed] clear up & comment `js-engine.js` file
 
 * else
 
