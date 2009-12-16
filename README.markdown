@@ -15,7 +15,7 @@ That is typical directory structure I use
 
 * `/css` - css stylesheets
 * `/js` - all the javascript
-* `/images` - site images, remember to optimize them (http://smush.it/)
+* `/images` - site images, remember to optimize them (<http://smush.it/>)
 
 ## The code - HTML
 
