@@ -33,14 +33,14 @@ That is typical directory structure I use
 
 	<meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-> Then.. We turn [google chrome frame](http://code.google.com/intl/pl-PL/chrome/chromeframe/) ON for IE browsers if user has previously installed it on his computer
+> Turning [google chrome frame](http://code.google.com/intl/pl-PL/chrome/chromeframe/) ON for IE browsers (if user has previously installed it on his computer)
 
 
 **Browsers with javascript support**
 
 	<script type="text/javascript">document.documentElement.className += " js";</script>
 
-> Next, a little trick to append .js class to the body tag if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
+> Appending .js class to the body tag if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 
 
 **body .ie6 & .ie7 classes**
@@ -69,7 +69,7 @@ That is typical directory structure I use
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/js-engine.js"></script>
 
-> Below we place all our javascript, just to make our site load faster
+> Placing all javascript on the bottom of the page to speed up site loading
 > 
 > * `jQuery 1.3.2 min` is being served by google
 > * `js/js-engine.js` served locally, that's where the js magic takes place
