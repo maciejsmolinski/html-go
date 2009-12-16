@@ -23,24 +23,24 @@ HTML5 doctype
 
 	<!DOCTYPE html>
 
-    > Firstly, the framework uses HTML5 doctype and that's why there are two files:
-    >
-    > * `index.html` with HTML4/XHTML markup
-    > * `index.html5.html` with HTML5 markup
+> Firstly, the framework uses HTML5 doctype and that's why there are two files:
+>
+> * `index.html` with HTML4/XHTML markup
+> * `index.html5.html` with HTML5 markup
 
 
 chrome frame
 
 	<meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    > Then.. We turn [google chrome frame](http://code.google.com/intl/pl-PL/chrome/chromeframe/) ON for IE browsers if user has previously installed it on his computer
+> Then.. We turn [google chrome frame](http://code.google.com/intl/pl-PL/chrome/chromeframe/) ON for IE browsers if user has previously installed it on his computer
 
 
 javascript support
 
 	<script type="text/javascript">document.documentElement.className += " js";</script>
 
-    > Next, a little trick to append .js class to the body tag if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
+> Next, a little trick to append .js class to the body tag if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 
 
 
@@ -50,19 +50,19 @@ body ie6/ie7 classes
 	<!--[if IE 7]><body class="ie7"><![endif]-->
 	<!--[if !IE]><!--><body><!-- <![endif]-->
 
-    > Basing on [source](http://codecandies.de/2008/12/12/conditional-comments-wenige-requests/) we're adding..
-    >
-    > * `.ie6` class for <= IE6 browsers
-    > * `.ie7` class for IE7 browser
-    >
-    > ..to the body tag
+> Basing on [source](http://codecandies.de/2008/12/12/conditional-comments-wenige-requests/) we're adding..
+>
+> * `.ie6` class for <= IE6 browsers
+> * `.ie7` class for IE7 browser
+>
+> ..to the body tag
 
 
 HTML5 support for IE
 
 	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-    > The script adds very basic html5 support (but does!) for IE browsers
+> The script adds very basic html5 support (but does!) for IE browsers
 
 
 jQuery & other javascript
@@ -70,10 +70,10 @@ jQuery & other javascript
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/js-engine.js"></script>
 
-    > Below we place all our javascript, just to make our site load faster
-    > 
-    > * `jQuery 1.3.2 min` is being served by google
-    > * `js/js-engine.js` served locally, that's where the js magic takes place
+> Below we place all our javascript, just to make our site load faster
+> 
+> * `jQuery 1.3.2 min` is being served by google
+> * `js/js-engine.js` served locally, that's where the js magic takes place
 
 ## The code - CSS
 
