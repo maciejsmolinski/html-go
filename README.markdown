@@ -21,9 +21,7 @@ That is typical directory structure I use
 
 * HTML5 doctype
 
-    <pre>
     <!DOCTYPE html>
-    </pre>
     
     > Firstly, the framework uses HTML5 doctype and that's why there are two files:
     >
@@ -33,18 +31,14 @@ That is typical directory structure I use
 
 * chrome frame
 
-    <pre>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    </pre>
 
     > Then.. We turn [google chrome frame](http://code.google.com/intl/pl-PL/chrome/chromeframe/) ON for IE browsers if user has previously installed it on his computer
 
 
 * javascript support
 
-    <pre>
     <script type="text/javascript">document.documentElement.className += " js";</script>
-    </pre>
 
     > Next, a little trick to append .js class to the body tag if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 
@@ -52,11 +46,9 @@ That is typical directory structure I use
 
 * body ie6/ie7 classes
 
-    <pre>
     <!--[if lte IE 6]><body class="ie6"><![endif]-->
     <!--[if IE 7]><body class="ie7"><![endif]-->
     <!--[if !IE]><!--><body><!-- <![endif]-->
-    </pre>
 
     > Basing on [source](http://codecandies.de/2008/12/12/conditional-comments-wenige-requests/) we're adding..
     >
@@ -68,19 +60,15 @@ That is typical directory structure I use
 
 * HTML5 support for IE
 
-    <pre>
     <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    </pre>
 
     > The script adds very basic html5 support (but does!) for IE browsers
 
 
 * jQuery & other javascript
 
-    <pre>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/js-engine.js"></script>
-    </pre>
 
     > Below we place all our javascript, just to make our site load faster
     > 
