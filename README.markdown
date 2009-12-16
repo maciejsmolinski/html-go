@@ -29,7 +29,7 @@ That is typical directory structure I use
 > * `index.html5.html` with HTML5 markup
 
 
-**Turning google chrome frame `ON` for IE browsers**
+**Turning google chrome frame** ON **for IE browsers**
 
 	<meta http-equiv="X-UA-Compatible" content="chrome=1">
 
