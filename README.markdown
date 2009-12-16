@@ -13,6 +13,8 @@ If you like it and/or have any suggestions ? Feel free to contact me or just for
 
 That is typical directory structure I use
 
+	cite
+
 * `/css` - css stylesheets
 * `/js` - all the javascript
 * `/images` - site images, remember to optimize them (http://smush.it/)
