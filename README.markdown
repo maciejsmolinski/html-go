@@ -19,6 +19,10 @@ That is typical directory structure I use
 
 ## The code - HTML
 
+`
+<!DOCTYPE html>
+`
+
 * HTML5 doctype
 
 
