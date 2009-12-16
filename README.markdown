@@ -19,7 +19,7 @@ That is typical directory structure I use
 
 ## The code - HTML
 
-*HTML5 doctype*
+**HTML5 doctype**
 
 	<!DOCTYPE html>
 
@@ -29,21 +29,21 @@ That is typical directory structure I use
 > * `index.html5.html` with HTML5 markup
 
 
-*Turning google chrome frame `ON` for IE browsers*
+**Turning google chrome frame `ON` for IE browsers**
 
 	<meta http-equiv="X-UA-Compatible" content="chrome=1">
 
 > Then.. We turn [google chrome frame](http://code.google.com/intl/pl-PL/chrome/chromeframe/) ON for IE browsers if user has previously installed it on his computer
 
 
-*Browsers with javascript support*
+**Browsers with javascript support**
 
 	<script type="text/javascript">document.documentElement.className += " js";</script>
 
 > Next, a little trick to append .js class to the body tag if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 
 
-*body .ie6 & .ie7 classes*
+**body .ie6 & .ie7 classes**
 
 	<!--[if lte IE 6]><body class="ie6"><![endif]-->
 	<!--[if IE 7]><body class="ie7"><![endif]-->
@@ -57,14 +57,14 @@ That is typical directory structure I use
 > ..to the body tag
 
 
-*HTML5 support for IE*
+**HTML5 support for IE**
 
 	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 > The script adds very basic html5 support (but does!) for IE browsers
 
 
-*jQuery & other javascript*
+**jQuery & other javascript**
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/js-engine.js"></script>
