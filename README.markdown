@@ -78,21 +78,6 @@ That is typical directory structure I use
 
 > nothing here, yet!...
 
-
-## TODO:
-
-* CSS
-    
-    > * add margins for headers, paragraphs etc (if needed)
-
-* JS
-
-    > * add `install google chrome frame` notice for IE
-
-* else
-
-    > * write documentation => update readme (css code, additional info etc.)
-
 ## Additional information
 
 Some code snippets and concepts are based on:
