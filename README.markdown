@@ -4,7 +4,9 @@
 You wonder what **HTML-go** is, right ?
   
   
-**HTML-go** is a lightweight html/css/js framework, a result of all my work spent with front-end development.  
+**HTML-go** is a lightweight html/css/js framework.
+It's purpose is to speed up your front-end development and diving into new projets. 
+It's a simple base. You choose what you need and remove all the code you don't. That's it!
  
 If you like it and/or have any suggestions ? Feel free to contact me or just fork the project.  
 
