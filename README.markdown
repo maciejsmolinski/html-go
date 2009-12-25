@@ -69,7 +69,7 @@ That is typical directory structure I use
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/js-engine.js"></script>
 
-> Placing all javascript on the bottom of the page to speed up site loading
+> Placing all javascript on the bottom of the page [to speed up site loading](http://developer.yahoo.com/performance/rules.html#js_bottom )
 > 
 > * `jQuery 1.3.2 min` is being served by google
 > * `js/js-engine.js` served locally, that's where the js magic takes place
