@@ -11,9 +11,10 @@ img {-ms-interpolation-mode: bicubic}
 /* IE6 and lighter dedicated css: */
 .ie6 div { }
 
+
 /* IE5 dedicated css: */
-.ie6 div#example {width:240px} /*value for IE5*/
-.ie6 div#example {w\\idth:250px} /*restoring valid value for IE6*/
+.ie6 {text-align /**/:center}
+.ie6 #wrap {text-align /**/:left}
 
 
 /* IE5-mac dedicated css: */
