@@ -5,7 +5,7 @@
 
  HTML-go (HTML/CSS/JS) framework
  author: Maciej Smoliński (http://devbubble.net)
- version: 0.7.2
+ version: 0.7.3
  source&documentation: http://github.com/msblaze/html-go
 
 
@@ -36,6 +36,5 @@
 @media handheld 
 {
     /* only handheld dedicated css */
-    body {width:100%;}
-.notice {display:none}
+    
 }
