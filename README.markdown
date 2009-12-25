@@ -1,4 +1,4 @@
-# HTML-go
+# HTML-go [v 0.7.6]
 
 
 You wonder what **HTML-go** is, right ?
