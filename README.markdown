@@ -4,9 +4,8 @@
 You wonder what **HTML-go** is, right ?
   
   
-**HTML-go** is a bunch of files I start to work with when creating (x)html/css/js projects.  
-The **lightweight** framework is a result of all my work spent with front-end development.  
-
+**HTML-go** is a lightweight html/css/js framework, a result of all my work spent with front-end development.  
+ 
 If you like it and/or have any suggestions ? Feel free to contact me or just fork the project.  
 
 ## Directory Stucture
