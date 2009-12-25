@@ -21,17 +21,21 @@
 .js div { }
 
 /* media specific css : */
-@media print {
+@media print 
+{
     /* only print dedicated css */
 
 }
 
-@media screen {
+@media screen 
+{
     /* only screen dedicated css */
 
 }
 
-@media handheld {
+@media handheld 
+{
     /* only handheld dedicated css */
-
+    body {width:100%;}
+.notice {display:none}
 }
