@@ -68,8 +68,10 @@ header,nav,section,article,aside,footer {display:block}
 .bottom {margin-bottom:0 !important;padding-bottom:0 !important}
 
 /* tables css: */
+table {margin:0 0 .8em}
+table table {margin:0}
 table, td, th {border:1px solid #ddd}
-/* TODO: {IE does not apply margin}-->  */caption {background:#ddd;margin-top:.8em}
+caption {background:#ddd}
 thead tr, tfoot tr {background:#eee}
 table, td, th, caption {padding:.8em}
 
