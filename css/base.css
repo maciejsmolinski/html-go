@@ -48,8 +48,9 @@ p {margin:0 0 1.5em}
 fieldset {padding:1em 2em;margin:0 0 1em;border:1px solid #ddd}
 legend {color:#000;padding:0 .4em;font-weight:700} /*color, because legend doesn't inherit in IE */
 input[type=text],input[type=password],.text,.password,textarea,select {width:20em;padding:0.385em;border:1px solid #ddd}
-input[type=checkbox]:focus,input[type=radio]:focus,input[type=text]:focus,input[type=password]:focus,.checkbox:focus,.radio:focus,.text:focus,.password:focus,textarea:focus,select:focus {outline:1px solid #35B3F5}
 input[type=submit],.submit {padding:.385em 3em;background:#ddd;border:0;color:#616161}
+input:focus,textarea:focus,select:focus {outline:1px solid #35B3F5}
+input[type=submit]:focus,input.submit:focus {outline:0}
 label,input[type=button],input[type=submit],.submit,.button,button {cursor:pointer}
 
 /* grids css */
