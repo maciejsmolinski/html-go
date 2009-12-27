@@ -6,7 +6,7 @@ body {min-height:101%}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {margin:0;padding:0}
 table {border-collapse:collapse;border-spacing:0}
 img {border:0;color:#ccc} /*image `alt` attribute text styling*/
-address,caption,cite,code,dfn,th,td,var {font-style:normal;font-weight:normal}
+address,caption,cite,code,th,td,var {font-style:normal;font-weight:normal}
 li {list-style:none}
 caption,th,td {text-align:left}
 h1,h2,h3,h4,h5,h6 {font-size:1em}
@@ -17,18 +17,18 @@ sub {vertical-align:text-bottom}
 input,textarea,select {font-family:inherit;font-size:inherit;font-weight:inherit}
 
 /* typography css: */
-body {font:13px/1.231 "Helvetica Neue",Helvetica,Arial,clean,sans-serif;line-height:1.5em;color:#000}
+body {font:13px/1.231 "Helvetica Neue",Helvetica,Arial,clean,sans-serif;color:#000}
 select,input,button,textarea {font:99% "Helvetica Neue",Helvetica,Arial,clean,sans-serif}
 pre,code,kbd,samp,tt {font-family:monospace;line-height:100%}
-/* TODO: DOES NOT VALIDATE--> */ table {font-size:inherit;font:100%}
+table {font-size:100%;font-size:inherit}
 h1 {font-size:1.385em} /* 18px */
 h2 {font-size:1.231em} /* 16px */
 h3 {font-size:1.08em} /* 14px */
-li li,li p,td p,blockquote p {font-size:1em}
+div div, div p,li li,li p,td td,td p,blockquote p {font-size:1em}
 h1,h2,h3 {margin:1em 0}
-p {margin:0 0 1em 0}
+p {margin:0 0 1em}
 h1,h2,h3,h4,h5,h6,strong {font-weight:bold}
-em {font-style:italic}
+/* TODO:--> *//*em, dfn {font-style:italic}*/
 a {text-decoration:none}
 a:hover,a:active {outline: none} /*remove anchor outlines without impact on accesibility*/
 
@@ -64,11 +64,11 @@ header,nav,section,article,aside,footer {display:block}
 /* misc css: */
 .hide {display:none}
 a abbr,a acronym {cursor:pointer !important}
-abbr[title],acronym[title] {border-bottom: 1px dotted #888 !important;cursor:help}
+/* TODO:--> */abbr[title],acronym[title]/*,dfn[title]*/ {border-bottom: 1px dotted #888 !important;cursor:help}
 hr {background:#ddd;color:#ddd;clear:both;float:none;width:100%;height:.1em;margin:1.45em 0;border:none}
 
 /* forms css: */
-fieldset {padding:.8em;margin:0 0 1em 0}
+fieldset {padding:.8em;margin:0 0 1em}
 /* TODO: only text inputs?--> */ fieldset,input[type=text],input.text,textarea,select {border:1px solid #ddd}
 /* TODO: DOES NOT VALIDATE--> */ input:not([type=submit]):focus,input.text:focus,textarea:focus,select:focus {outline:1px solid #35B3F5}
 input[type="text"],input.text,textarea,select {width:12em}
