@@ -69,7 +69,7 @@ header,nav,section,article,aside,footer {display:block}
 
 /* tables css: */
 table, td, th {border:1px solid #ddd}
-caption {background:#ddd;margin-top:.8em}
+/* TODO: {TIDY}--> {IE does not apply margin} */caption {background:#ddd;margin-top:.8em}
 thead tr, tfoot tr {background:#eee}
 table, td, th, caption {padding:.8em}
 
