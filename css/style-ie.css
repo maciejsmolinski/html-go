@@ -7,6 +7,7 @@ textarea {overflow:auto}
 input,textarea,select {font-size:100%}
 pre,code,kbd,samp,tt {font-size:108%}
 .submit {padding:.385em 1.7em !important;background:#ddd;border:0;color:#616161}
+pre {padding:1em 0;width:100%;height:100%;overflow-x:scroll}
 
 
 /* IE7 dedicated css: */
@@ -18,7 +19,6 @@ pre,code,kbd,samp,tt {font-size:108%}
 .ie6 .submit, .ie6 .button, .ie6 button {cursor:pointer}
 .ie6 .text, .ie6 .password, .ie6 textarea, .ie6 select {width:20em;padding:0.385em;border:1px solid #ddd}
 .ie6 textarea {width:30em;height:12em}
-
 
 /* IE5 dedicated css: */
 .ie6 {text-align /**/:center}
