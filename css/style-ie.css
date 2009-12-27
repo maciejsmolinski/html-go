@@ -7,9 +7,7 @@ textarea {overflow:auto}
 input,textarea,select {font-size:100%}
 pre,code,kbd,samp,tt {font-size:108%}
 .text,.password,textarea,select {width:20em;padding:0.385em;border:1px solid #ddd}
-.submit {padding:.385em 3em;background:#ddd;border:0;color:#616161}
-.radio:focus,.checkbox:focus {border:0;outline:1px solid #35B3F5}
-input.submit:focus {border:0}
+.submit {padding:.385em 1em !important;background:#ddd;border:0;color:#616161}
 
 
 /* IE7 dedicated css: */
@@ -17,7 +15,8 @@ input.submit:focus {border:0}
 
 
 /* IE6 and lighter dedicated css: */
-.ie6 div { }
+.ie6 .attr_title {border-bottom: 1px dotted #888 !important;cursor:help}
+.ie6 .submit, .ie6 .button, .ie6 button {cursor:pointer}
 
 /* IE5 dedicated css: */
 .ie6 {text-align /**/:center}
