@@ -19,7 +19,7 @@ a:hover,a:active {outline: none}
 a abbr,a acronym {cursor:pointer !important}
 abbr[title],acronym[title],dfn[title] {border-bottom: 1px dotted #888 !important;cursor:help}
 label,input[type=button],input[type=submit],.submit,.button,button {cursor:pointer}
-/* TODO: {OPERA PADDING:0 ISSUE}--> */input {margin:0}
+input {margin:0} /* padding:0 destroys radio buttons' & checkboxes' look in opera*/
 
 /* TODO: {TIDY}--> /* base typography css: */
 body {font:13px/1.5 "Helvetica Neue",Helvetica,Arial,clean,sans-serif;color:#000}
@@ -48,6 +48,7 @@ p {margin:0 0 1.5em}
 /* forms css: */
 fieldset {padding:1em 2em;margin:0 0 1em;border:1px solid #ddd}
 legend {color:#000;padding:0 .4em;font-weight:700} /*color, because legend doesn't inherit in IE */
+/* TODO: {[type=...] causes problems in IE6}-->  */
 input[type="text"],input[type="password"],.text,.password,textarea,select {width:20em;padding:0.385em;border:1px solid #ddd}
 input[type=submit],.submit {padding:.385em 3em;background:#ddd;border:0;color:#616161}
 input:focus,textarea:focus,select:focus {border:1px solid #35B3F5}
