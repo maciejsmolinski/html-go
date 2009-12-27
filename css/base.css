@@ -54,7 +54,7 @@ input:focus,textarea:focus,select:focus {border:1px solid #35B3F5}
 input[type=radio]:focus,.radio:focus,input[type=checkbox]:focus,.checkbox:focus,input[type=submit]:focus,input.submit:focus {border:0}
 input[type=radio]:focus,.radio:focus,input[type=checkbox]:focus,.checkbox:focus {outline:1px solid #35B3F5}
 
-/* grids css */
+/* grids css: */
 .showgrid16 {background:url(../images/grids/16_col.gif)}
 .showgrid12 {background:url(../images/grids/12_col.gif)}
 
@@ -67,13 +67,12 @@ header,nav,section,article,aside,footer {display:block}
 .top {margin-top:0 !important;padding-top:0 !important}
 .bottom {margin-bottom:0 !important;padding-bottom:0 !important}
 
-/* misc css: */
-.hide {display:none}
-hr {background:#ddd;color:#ddd;clear:both;float:none;width:100%;height:.1em;margin:1.45em 0;border:none}
-/* TEMP */
+/* tables css: */
 table, td, th {border:1px solid #ddd}
 caption {background:#ddd;margin-top:.8em}
 thead tr, tfoot tr {background:#eee}
 table, td, th, caption {padding:.8em}
-div {faont-size:1.231em}
-/* /TEMP */
+
+/* misc css: */
+.hide {display:none}
+hr {background:#ddd;color:#ddd;clear:both;float:none;width:100%;height:.1em;margin:1.45em 0;border:none}
