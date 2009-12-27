@@ -1,7 +1,11 @@
 @charset "utf-8";
 
 /* all IE dedicated css: */
+body {font-size:small;font:x-small}
 img {-ms-interpolation-mode: bicubic}
+textarea {overflow:auto}
+input, textarea, select {font-size:100%}
+pre, code, kbd, samp, tt {font-size:108%}
 
 
 /* IE7 dedicated css: */
@@ -10,7 +14,6 @@ img {-ms-interpolation-mode: bicubic}
 
 /* IE6 and lighter dedicated css: */
 .ie6 div { }
-
 
 /* IE5 dedicated css: */
 .ie6 {text-align /**/:center}
