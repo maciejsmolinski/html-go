@@ -14,7 +14,7 @@
 /* site css: */
 #header, #mainnav, #wrap, #footer {width:960px;margin:0 auto;padding:0 10px;max-width:940px}
 #header, #footer {position:relative}
-#logo {position:absolute;top:0;left:0;}
+#logo {position:absolute;top:0;left:0}
 
 
 /* browsers with javascript support dedicated css: */
@@ -36,5 +36,5 @@
 @media handheld 
 {
     /* only handheld dedicated css */
-    
+
 }
