@@ -19,6 +19,7 @@ body {font:13px/1.231 "Helvetica Neue",Helvetica,Arial,clean,sans-serif;min-heig
 select,input,button,textarea {font:99% "Helvetica Neue",Helvetica,Arial,clean,sans-serif}
 /* TODO: DOES NOT VALIDATE--> */ table {font-size:inherit;font:100%}
 pre,code,kbd,samp,tt {font-family:monospace;line-height:100%}
+
 /* typography css: */
 body {line-height:1.5em;color:#000}
 h1 {font-size:1.385em} /* 18px */
