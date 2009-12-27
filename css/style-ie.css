@@ -8,8 +8,8 @@ input,textarea,select {font-size:100%}
 pre,code,kbd,samp,tt {font-size:108%}
 .text,.password,textarea,select {width:20em;padding:0.385em;border:1px solid #ddd}
 .submit {padding:.385em 3em;background:#ddd;border:0;color:#616161}
-.radio:focus,.checkbox:focus,input.submit:focus {border:0;outline:1px solid #35B3F5}
-input.submit:focus {outline:0}
+.radio:focus,.checkbox:focus {border:0;outline:1px solid #35B3F5}
+input.submit:focus {border:0}
 
 
 /* IE7 dedicated css: */
