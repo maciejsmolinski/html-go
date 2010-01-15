@@ -15,7 +15,7 @@ dt, ins {font-weight:bold;text-decoration:none}
 sup {vertical-align:text-top}
 sub {vertical-align:text-bottom}
 input,textarea,select {font-family:inherit;font-size:inherit;font-weight:inherit}
-a:hover,a:active {outline: none}
+a:hover,a:active {outline:none} /* TODO: replace `a` with `:link` */
 a abbr,a acronym {cursor:pointer !important}
 abbr[title],acronym[title],dfn[title] {border-bottom: 1px dotted #888 !important;cursor:help}
 label,input[type=button],input[type=submit],.submit,.button,button {cursor:pointer}
@@ -24,7 +24,7 @@ input {margin:0} /* padding:0 destroys radio buttons' & checkboxes' look in oper
 /* TODO: {TIDY}--> /* base typography css: */
 body {font:13px/1.5 "Helvetica Neue",Helvetica,Arial,clean,sans-serif;color:#000}
 select,input,button,textarea {font:99% "Helvetica Neue",Helvetica,Arial,clean,sans-serif}
-pre,code,kbd,samp,tt,var {font-family:monospace;line-height:100%;overflow:auto}
+pre,code,kbd,samp,tt,var {font-family:monospace;line-height:100%;overflow:auto} /* horizontal scrollbar appears in chrome */
 table {font-size:100%;font-size:inherit}
 div div, div p,li li,li p,td td,td p,blockquote p {font-size:100%}
 blockquote {font-style:italic;margin:0 0 1.5em 2em;padding:0 0 0 3em;border-left:1px solid #ddd}
@@ -45,6 +45,9 @@ p {margin:0 0 1.5em}
 /* floats css: */
 .left {float:left}
 .right {float:right}
+img.left, img.right {margin:.385em 0 .385em 0}
+img.left {margin-right:.385em}
+img.right {margin-left:.385em}
 .clear {overflow:hidden}
 .clearfix:after {content:"\0020";line-height:0}
 .clear,.clearfix:after {clear:both;display:block;width:0;height:0;font-size:0;visibility:hidden}
