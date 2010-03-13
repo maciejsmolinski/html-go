@@ -68,7 +68,7 @@ That is typical directory structure I use
 ###jQuery & other javascript
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js/js-engine.js"></script>
+	<script type="text/javascript" src="js/js-application.js"></script>
 
 > Placing all javascript on the bottom of the page [to speed up site loading](http://developer.yahoo.com/performance/rules.html#js_bottom )
 > 
