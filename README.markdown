@@ -1,7 +1,5 @@
 # HTML-go
 
-**current version:** 0.8.3.7
-
 You wonder what **HTML-go** is, right ?
   
   
@@ -9,6 +7,7 @@ You wonder what **HTML-go** is, right ?
 It's purpose is to speed up your front-end development and diving into new projets. 
 It's a simple base. You choose what you need and remove all the code you don't. That's it!
 
+(current version: 0.8.3.7)
 
 ## Directory Stucture
 
