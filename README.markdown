@@ -1,5 +1,6 @@
-# HTML-go [v 0.8.3.7]
+# HTML-go
 
+**current version:** 0.8.3.7
 
 You wonder what **HTML-go** is, right ?
   
@@ -7,18 +8,27 @@ You wonder what **HTML-go** is, right ?
 **HTML-go** is a lightweight html/css/js framework.
 It's purpose is to speed up your front-end development and diving into new projets. 
 It's a simple base. You choose what you need and remove all the code you don't. That's it!
- 
-If you like it and/or have any suggestions ? Feel free to contact me or just fork the project.  
+
 
 ## Directory Stucture
 
-That is typical directory structure I use
+That is directory structure I use in framework
 
 * `/css` - css stylesheets
 * `/js` - all the javascript
 * `/images` - site images, remember to optimize them (<http://smush.it/>)
 
-## The code - HTML
+## Framework in shortcut
+
+* HTML5 doctype
+* Google chrome frame (for IE)
+* js class appended to body (if browser supports javascript)
+* ie6/ie7 class appended to body (for IE browsers)
+* HTML5 basic support for IE browsers
+* jQuery 1.4.2 framework (served by google)
+
+
+## The code
 
 ###HTML5 doctype
 
