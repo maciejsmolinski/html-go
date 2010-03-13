@@ -82,7 +82,7 @@ table, td, th {border:1px solid #ddd}
 caption {background:#ddd}
 thead tr, tfoot tr {background:#eee}
 table, td, th, caption {padding:.8em}
-
+/* TODO --> */caption {width:100%}
 /* misc css: */
 .hide {display:none}
 hr {background:#ddd;color:#ddd;clear:both;float:none;width:100%;height:.1em;margin:1.5em 0;border:none}
