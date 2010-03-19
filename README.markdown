@@ -61,8 +61,8 @@ That is directory structure I use in framework
 	<!--[if lte IE 7]></div><![endif]-->
 
 
-> * `#ie6` id for <= IE6 browsers
-> * `#ie7` id for IE7 browser
+> * `ie6` id for <= IE6 browsers
+> * `ie7` id for IE7 browser
 
 
 ###HTML5 support for IE
