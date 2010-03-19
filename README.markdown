@@ -22,7 +22,7 @@ That is directory structure I use in framework
 * HTML5 doctype
 * Google chrome frame (for IE)
 * js class appended to body (if browser supports javascript)
-* #ie6/#ie7 container (for IE browsers)
+* ie6/ie7 container (for IE browsers)
 * HTML5 basic support for IE browsers
 * jQuery 1.4.2 framework (served by google)
 
