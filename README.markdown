@@ -53,7 +53,7 @@ That is directory structure I use in framework
 > Appending .js class to the body tag if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 
 
-###ie6 & ie7 containers
+### &#0035;ie6 & &#0035;ie7 containers
 
 	<!--[if lte IE 6]><div id="ie6"><![endif]-->
 	<!--[if IE 7]><div id="ie7"><![endif]-->
