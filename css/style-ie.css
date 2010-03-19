@@ -23,7 +23,7 @@ pre {padding:1em 0;width:100%;height:100%;overflow-x:scroll}
 
 /* IE5 dedicated css: */
 #ie6 {text-align /**/:center}
-#ie6 #wrap {text-align /**/:left}
+#ie6 * {text-align /**/:left}
 
 
 /* IE5-mac dedicated css: */
