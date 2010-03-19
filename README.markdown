@@ -79,7 +79,7 @@ That is directory structure I use in framework
 
 > Placing all javascript on the bottom of the page [to speed up site loading](http://developer.yahoo.com/performance/rules.html#js_bottom )
 > 
-> * `jQuery 1.3.2 min` is being served by google
+> * `jQuery 1.4.2 min` is being served by google
 > * `js/application.js` served locally, that's where the js magic takes place
 
 ## The code - CSS
