@@ -7,7 +7,7 @@ You wonder what **HTML-go** is, right ?
 It's purpose is to speed up your front-end development and diving into new projets. 
 It's a simple base. You choose what you need and remove all the code you don't. That's it!
 
-(current version: 0.8.3.7)
+(current version: 0.8.3.8)
 
 ## Directory Stucture
 
@@ -53,7 +53,7 @@ That is directory structure I use in framework
 > Appending .js class to the body tag if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 
 
-### #ie6 & #ie7 containers
+###ie6 & ie7 containers
 
 	<!--[if lte IE 6]><div id="ie6"><![endif]-->
 	<!--[if IE 7]><div id="ie7"><![endif]-->
