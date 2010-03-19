@@ -22,7 +22,7 @@ That is directory structure I use in framework
 * HTML5 doctype
 * Google chrome frame (for IE)
 * js class appended to body (if browser supports javascript)
-* ie6/ie7 class appended to body (for IE browsers)
+* #ie6/#ie7 container (for IE browsers)
 * HTML5 basic support for IE browsers
 * jQuery 1.4.2 framework (served by google)
 
@@ -53,18 +53,16 @@ That is directory structure I use in framework
 > Appending .js class to the body tag if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 
 
-###body .ie6 & .ie7 classes
+### #ie6 & #ie7 containers
 
-	<!--[if lte IE 6]><body class="ie6"><![endif]-->
-	<!--[if IE 7]><body class="ie7"><![endif]-->
-	<!--[if !IE]><!--><body><!-- <![endif]-->
+	<!--[if lte IE 6]><div id="ie6"><![endif]-->
+	<!--[if IE 7]><div id="ie7"><![endif]-->
+	(...)
+	<!--[if lte IE 7]></div><![endif]-->
 
-> Basing on [source](http://codecandies.de/2008/12/12/conditional-comments-wenige-requests/) we're adding..
->
-> * `.ie6` class for <= IE6 browsers
-> * `.ie7` class for IE7 browser
->
-> ..to the body tag
+
+> * `#ie6` id for <= IE6 browsers
+> * `#ie7` id for IE7 browser
 
 
 ###HTML5 support for IE
