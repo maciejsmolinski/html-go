@@ -91,7 +91,6 @@ For IE:
 Some code snippets and concepts are based on:
 
 * [YUI 3](http://developer.yahoo.com/yui/3/)
-* [Blueprint css framework](http://blueprintcss.org) 
 * [Gerrit van Aaken's HTML/CSS/JS-Kickstart](http://praegnanz.de/weblog/htmlcssjs-kickstart)
 * [HTML5 enabling script for IE](http://remysharp.com/2009/01/07/html5-enabling-script/)
 
