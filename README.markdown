@@ -7,7 +7,7 @@ You wonder what **HTML-go** is, right ?
 It's purpose is to speed up your front-end development and diving into new projets. 
 It's a simple base. You choose what you need and remove all the code you don't. That's it!
 
-(current version: 0.8.3.8)
+(current version: 0.8.4)
 
 ## Directory Stucture
 
@@ -17,17 +17,21 @@ That is directory structure I use in framework
 * `/js` - all the javascript
 * `/images` - site images, remember to optimize them (<http://smush.it/>)
 
-## Framework in shortcut
+## Framework in shortcut:
 
 * HTML5 doctype
-* Google chrome frame (for IE)
-* js class appended to body (if browser supports javascript)
-* &#0035;ie6 & &#0035;ie7 containers (for IE browsers)
-* HTML5 basic support for IE browsers
+* `js` class appended to body (if browser supports javascript)
 * jQuery 1.4.2 framework (served by google)
 
+For IE:
 
-## The code
+* Google chrome frame turned ON
+* IE stylesheet
+* HTML5 basic support for IE browsers
+
+
+##The code - HTML
+
 
 ###HTML5 doctype
 
@@ -39,40 +43,14 @@ That is directory structure I use in framework
 > * `index.html5.html` with HTML5 markup
 
 
-###Turning google chrome frame ON for IE browsers
-
-	<meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-> Turning [google chrome frame](http://code.google.com/intl/pl-PL/chrome/chromeframe/) ON for IE browsers (if user has previously installed it on his computer)
-
-
 ###Browsers with javascript support
 
 	<script type="text/javascript">document.documentElement.className += " js";</script>
 
-> Appending .js class to the body tag if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
+> Appending `js` class to the body tag if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 
 
-### &#0035;ie6 & &#0035;ie7 containers
-
-	<!--[if lte IE 6]><div id="ie6"><![endif]-->
-	<!--[if IE 7]><div id="ie7"><![endif]-->
-	(...)
-	<!--[if lte IE 7]></div><![endif]-->
-
-
-> * `#ie6` for <= IE6 browsers
-> * `#ie7` for IE7 browser
-
-
-###HTML5 support for IE
-
-	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-> The script adds very basic html5 support (but does!) for IE browsers
-
-
-###jQuery & other javascript
+###jQuery
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/application.js"></script>
@@ -81,6 +59,28 @@ That is directory structure I use in framework
 > 
 > * `jQuery 1.4.2 min` is being served by google
 > * `js/application.js` served locally, that's where the js magic takes place
+
+
+###Turning google chrome frame ON on IE browsers
+
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+> Turning [google chrome frame](http://code.google.com/intl/pl-PL/chrome/chromeframe/) ON for IE browsers (if user has previously installed it on his computer)
+
+
+###IE stylesheet
+
+	<link href="css/style-ie.css" rel="stylesheet" media="all" type="text/css" />
+
+> Targeting IE6 and above
+
+
+###HTML5 basic support for IE browsers
+
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+> The script adds very basic html5 support (but does!) for IE browsers
+
 
 ## The code - CSS
 
