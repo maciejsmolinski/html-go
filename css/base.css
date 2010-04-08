@@ -1,9 +1,7 @@
 @charset "utf-8";
 
 /* reset and re-set css: */
-html {height:100%}
-body {min-height:101%}
-body,div,/*dl,dt,dd,ul,ol,li,*/h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td {margin:0;padding:0}
+body,div,dl,dt,dd,/*ul,ol,li*/,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td {margin:0;padding:0}
 table {border-collapse:collapse;border-spacing:0}
 img {border:0;color:#ccc} /*image `alt` attribute text styling*/
 address,caption,code,th,td,var {font-style:normal;font-weight:normal}
@@ -11,7 +9,7 @@ caption,th,td {text-align:left}
 h1,h2,h3,h4,h5,h6 {font-size:100%}
 blockquote:before, blockquote:after,q:before,q:after {content:''}
 abbr,acronym {border:0;font-variant:normal}
-dt, ins {font-weight:bold;text-decoration:none}
+dt, ins {font-weight:700;text-decoration:none}
 sup {vertical-align:text-top}
 sub {vertical-align:text-bottom}
 input,textarea,select {font-family:inherit;font-size:inherit;font-weight:inherit}
@@ -21,7 +19,7 @@ abbr[title],acronym[title],dfn[title] {border-bottom: 1px dotted #888 !important
 label,input[type=button],input[type=submit],.submit,.button,button {cursor:pointer}
 input {margin:0} /* padding:0 destroys radio buttons' & checkboxes' look in opera*/
 
-/* TODO: {TIDY}--> /* base typography css: */
+/* base typography css: */
 body {font:13px/1.5 "Helvetica Neue",Helvetica,Arial,clean,sans-serif;color:#000}
 select,input,button,textarea {font:99% "Helvetica Neue",Helvetica,Arial,clean,sans-serif}
 pre,code,kbd,samp,tt,var {font-family:monospace;line-height:100%;overflow:auto} /* horizontal scrollbar appears in chrome */
@@ -79,8 +77,8 @@ header,nav,section,article,aside,footer {display:block}
 table {margin:0 0 1.5em}
 table table {margin:0}
 table, td, th {border:1px solid #ddd}
-caption {background:#ddd}
-thead tr, tfoot tr {background:#eee}
+caption {font-style:italic;color:#888}
+th, thead td, tfoot td {background:#fafafa}
 table, td, th, caption {padding:.8em}
 /* TODO --> */caption {width:100%}
 /* misc css: */
