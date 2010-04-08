@@ -77,7 +77,7 @@ For IE:
 
 ###HTML5 basic support for IE browsers
 
-	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 
 > The script adds very basic html5 support (but does!) for IE browsers
 
