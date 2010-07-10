@@ -1,7 +1,5 @@
-@charset "utf-8";
-
 /* reset and re-set css: */
-body,div,dl,dt,dd,/*ul,ol,li*/,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td {margin:0;padding:0}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,select,textarea,p,blockquote,th,td {margin:0;padding:0}
 table {border-collapse:collapse;border-spacing:0}
 img {border:0;color:#ccc} /*image `alt` attribute text styling*/
 address,caption,code,th,td,var {font-style:normal;font-weight:normal}
@@ -13,52 +11,82 @@ dt, ins {font-weight:700;text-decoration:none}
 sup {vertical-align:text-top}
 sub {vertical-align:text-bottom}
 input,textarea,select {font-family:inherit;font-size:inherit;font-weight:inherit}
-a:hover,a:active {outline:none} /* TODO: replace `a` with `:link` */
+a:hover,a:active {outline:none}
 a abbr,a acronym {cursor:pointer !important}
 abbr[title],acronym[title],dfn[title] {border-bottom: 1px dotted #888 !important;cursor:help}
-label,input[type=button],input[type=submit],.submit,.button,button {cursor:pointer}
-input {margin:0} /* padding:0 destroys radio buttons' & checkboxes' look in opera*/
+label,input[type=button],input[type=submit],button {cursor:pointer}
+ul {list-style-type:circle}
+ul,ol {list-style-position:inside}
 
 /* base typography css: */
-body {font:13px/1.5 "Helvetica Neue",Helvetica,Arial,clean,sans-serif;color:#000}
-select,input,button,textarea {font:99% "Helvetica Neue",Helvetica,Arial,clean,sans-serif}
-pre,code,kbd,samp,tt,var {font-family:monospace;line-height:100%;overflow:auto} /* horizontal scrollbar appears in chrome */
-table {font-size:100%;font-size:inherit}
-div div, div p,li li,li p,td td,td p,blockquote p {font-size:100%}
+pre,code,kbd,samp,tt,var {font-family:monospace;line-height:100%;overflow:auto}
+table,div div, div p,li li,li p,td td,td p,blockquote p {font-size:100%}
 blockquote {font-style:italic;margin:0 0 1.5em 2em;padding:0 0 0 3em;border-left:1px solid #ddd}
 pre {padding:1em;margin:0 0 1.5em}
 q {display:inline-block;padding:0.231em;border:1px solid #ddd}
 pre, q {border:1px solid #ddd;background:#f8f8f8;color:#888}
-a {color:#06c}
-a:hover {color:#888}
 
-/* text-sizing css: */
-h1 {font-size:200%}
-h2 {font-size:169.2%}
-h3 {font-size:138.5%}
-h4 {font-size:107.7%}
+/* headings&paragraphs&lists css: */
+h1 {font-size:24px}
+h2 {font-size:22px}
+h3 {font-size:20px}
+h4 {font-size:18px}
+h5 {font-size:16px}
+h6 {font-size:14px}
 h1,h2,h3,h4,h5,h6 {font-weight:400;margin:1em 0;line-height:1em}
-p {margin:0 0 1.5em}
+p,ul,ol {margin:0 0 1.5em}
+
+/* form fields css: */
+fieldset {padding:1em 2em;margin:0 0 1.5em;border:1px solid #ddd;-moz-border-radius:5px;border-radius:5px}
+legend {color:#000;padding:0 .4em;font-weight:700} /* setting color, because legend doesn't inherit in IE */
+input[type=text],input[type=password],textarea,select {width:14em;padding:0.417em;border:1px solid #ddd}
+textarea {width:30em;height:12em}
+input[type=submit] {padding:.417em 3em;background:#808080;border:0;color:#fff;margin:1em 0}
+input:focus,textarea:focus,select:focus {border:1px solid #9C9C9C}
+input[type=radio]:focus,input[type=checkbox]:focus {border:0;outline:1px solid #9C9C9C}
+input[type=submit]:focus {border:0}
+input[type=radio], input[type=checkbox] {margin:0 1em 0 0}
+.mid {width:20em !important}
+.long, textarea {width:26em !important}
+
+/* form messages&overall styling css: */
+label.subject {float:left;width:15em}
+label.block {margin:0 0 1em}
+.label_inline {width:auto;margin:-.417em 3em 0 0}
+label.subject, label.block {display:block}
+.form-error, label em, .notice {color:#A10101}
+.form-confirm {color:#72A101;background:url(../images/icon-confirm.gif) no-repeat left center}
+.form-error {background:url(../images/icon-error.gif) no-repeat left center}
+.form-confirm, .form-error {margin:0 0 0 1em;padding:0 0 0 20px;height:20px;display:inline-block}
+.block.form-confirm, .block.form-error {margin:1em 0}
+.colorize_rows > .row:nth-child(odd) {background:#eee}
+.row {margin:.5em 0;padding:1em;clear:both}
+.col {width:50%;float:left}
+.row.focus {background:#FFFBD9 !important}
+.row address {margin:1.5em 0}
+
+/* tables css: */
+table {margin:0 0 1.5em}
+table table {margin:0}
+table, td, th {border:1px solid #ddd}
+caption {font-style:italic;color:#888}
+th, thead td {background:#eee}
+table, td, th, caption {padding:.8em}
+tfoot td {color:#ADADAD}
+caption {width:100%}
 
 /* floats css: */
 .left {float:left}
 .right {float:right}
-img.left, img.right {margin:.385em 0 .385em 0}
-img.left {margin-right:.385em}
-img.right {margin-left:.385em}
-.clear {overflow:hidden}
-.clearfix:after {content:"\0020";line-height:0}
-.clear,.clearfix:after {clear:both;display:block;width:0;height:0;font-size:0;visibility:hidden}
+img.left, img.right {margin:.417em 0}
+img.left {margin-right:.417em}
+img.right {margin-left:.417em}
+.clear {clear:both}
+.clearfix:after {content:"\0020";line-height:0;clear:both;display:block;width:0;height:0;font-size:0;visibility:hidden}
 
-/* TODO: {TIDY}--> /* forms css: */
-fieldset {padding:1em 2em;margin:0 0 1.5em;border:1px solid #ddd}
-legend {color:#000;padding:0 .4em;font-weight:700} /*setting color, because legend doesn't inherit in IE */
-input[type=text],input[type=password],.text,.password,textarea,select {width:20em;padding:0.385em;border:1px solid #ddd}
-textarea {width:30em;height:12em}
-input[type=submit],.submit {padding:.385em 3em;background:#ddd;border:0;color:#616161}
-input:focus,textarea:focus,select:focus {border:1px solid #35B3F5}
-input[type=radio]:focus,input[type=checkbox]:focus {border:0;outline:1px solid #35B3F5}
-input[type=submit]:focus {border:0}
+/* margins&paddings css: */
+.last {margin-right:0 !important;padding-right:0 !important}
+.bottom {margin-bottom:0 !important;padding-bottom:0 !important}
 
 /* grids css: */
 .showgrid16 {background:url(../images/grids/16_col.gif)}
@@ -66,25 +94,3 @@ input[type=submit]:focus {border:0}
 
 /* html5 css: */
 header,nav,section,article,aside,footer {display:block}
-
-/* margins&paddings css: */
-.first {margin-left:0 !important;padding-left:0 !important}
-.last {margin-right:0 !important;padding-right:0 !important}
-.top {margin-top:0 !important;padding-top:0 !important}
-.bottom {margin-bottom:0 !important;padding-bottom:0 !important}
-
-/* tables css: */
-table {margin:0 0 1.5em}
-table table {margin:0}
-table, td, th {border:1px solid #ddd}
-caption {font-style:italic;color:#888}
-th, thead td, tfoot td {background:#fafafa}
-table, td, th, caption {padding:.8em}
-/* TODO --> */caption {width:100%}
-/* misc css: */
-.hide {display:none}
-hr {background:#ddd;color:#ddd;clear:both;float:none;width:100%;height:.1em;margin:1.5em 0;border:none}
-
-/* TEMP */
-label {display:block;margin:1em 0 0}
-/* /TEMP */
