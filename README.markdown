@@ -91,4 +91,4 @@ Some code snippets and concepts are based on:
 
 ## Credits
 
-Created by Maciej Smoliński (<http://devbubble.net>). No rights reserved
+Created by Maciej Smoliński (<http://maciejsmolinski.com>). No rights reserved
