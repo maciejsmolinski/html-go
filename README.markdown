@@ -7,7 +7,9 @@ You wonder what **HTML-go** is, right ?
 It's purpose is to speed up your front-end development and diving into new projets. 
 It's a simple base. You choose what you need and remove all the code you don't. That's it!
 
-(current version: 0.9)
+(current version: 0.9.1)
+
+VIEW DEMO: (http://maciejsmolinski.com/framework/demo/)
 
 ## Directory Stucture
 
