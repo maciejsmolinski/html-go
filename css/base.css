@@ -54,10 +54,10 @@ label.subject {float:left;width:15em}
 label.block {margin:0 0 1em}
 .label_inline {width:auto;margin:-.417em 3em 0 0}
 label.subject, label.block {display:block}
-.form-error, label em, .notice {color:#A10101}
-.form-confirm {color:#72A101;background:url(../images/icon-confirm.gif) no-repeat left center}
+.form-error, label em, .notice {color:#B86464}
+.form-confirm {color:#9CB864;background:url(../images/icon-confirm.gif) no-repeat left center}
 .form-error {background:url(../images/icon-error.gif) no-repeat left center}
-.form-confirm, .form-error {margin:0 0 0 1em;padding:0 0 0 20px;height:20px;display:inline-block}
+.form-confirm, .form-error {margin:0 0 0 1em;padding:0 0 0 20px;height:16px;display:inline-block}
 .block.form-confirm, .block.form-error {margin:1em 0}
 .colorize_rows > .row:nth-child(odd) {background:#eee}
 .row {margin:.5em 0;padding:1em;clear:both}
