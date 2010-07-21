@@ -4,20 +4,20 @@
 
  HTML-go (HTML/CSS/JS) framework
  author: Maciej Smoliński (http://devbubble.net)
- version: 0.9
+ version: 0.9.1
  source&documentation: http://github.com/msblaze/html-go
 
 
 ----------------------------------------------------------------------- */
 
 /* site specific css: */
-body {font:12px/1.5 "Helvetica Neue",Helvetica,Arial,clean,sans-serif;color:#000;margin:50px auto}
+body {font:12px/1.5 "Helvetica Neue",Helvetica,Arial,clean,sans-serif;color:#000}
 a {color:#06c;text-decoration:none}
 a:hover {color:#888}
 
 #header, #mainnav, #wrap, #footer {width:940px;margin:0 auto;position:relative;padding:0 10px}
 
-#header {height:50px}
+#header {}
   #logo {margin:0;padding:0}
 #mainnav {list-style:none}
   #mainnav li {}
