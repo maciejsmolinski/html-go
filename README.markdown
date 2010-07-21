@@ -11,7 +11,7 @@ It's a simple base. You choose what you need and remove all the code you don't. 
 
 VIEW DEMO: [http://maciejsmolinski.com/framework/demo/](http://maciejsmolinski.com/framework/demo/)
 
-## Directory Stucture
+## Directory Stucture:
 
 That is directory structure I use in framework
 
@@ -60,13 +60,6 @@ For IE:
 > 
 > * `jQuery 1.4.2 min` is being served by google
 > * `js/application.js` served locally, that's where the js magic takes place
-
-
-###Turning google chrome frame ON on IE browsers
-
-	<meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-> Turning [google chrome frame](http://code.google.com/intl/pl-PL/chrome/chromeframe/) ON for IE browsers (if user has previously installed it on his computer)
 
 
 ###IE stylesheet
