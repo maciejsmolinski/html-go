@@ -9,7 +9,7 @@ It's a simple base. You choose what you need and remove all the code you don't. 
 
 (current version: 0.9.1)
 
-VIEW DEMO: (http://maciejsmolinski.com/framework/demo/)
+VIEW DEMO: [http://maciejsmolinski.com/framework/demo/](http://maciejsmolinski.com/framework/demo/)
 
 ## Directory Stucture
 
