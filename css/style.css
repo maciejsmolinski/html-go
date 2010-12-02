@@ -25,9 +25,6 @@ a:hover {color:#888}
 #wrap {}
   #sidebar {}
   #content {}
-    input[type=submit], .row {-moz-border-radius:3px;border-radius:3px}
-    .section {border-bottom:1px solid #ccc;padding:0 0 .5em}
-    .section, .subsection {margin:2em 0 1.5em}
 #footer {}
 
 /* browsers with javascript support dedicated css: */
