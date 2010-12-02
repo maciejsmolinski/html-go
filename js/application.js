@@ -25,17 +25,4 @@ $(function(){
 
   }
 
-  // Add class to all inputs (ie. input[type=text] = input.text) - for IE (< 7) purposes mainly, if needed
-  $('input').each(function() { $(this).addClass(this.type); });
-
-  // Add `clear:both` to any element after last `.col` (which is floated left) mainly for orphaned `.col`s
-  $('.col:last + *').css({'clear':'both'});
-
-  // Highlight selected field's row on focus by changing row's background-color
-  var fields = $('.colorize_rows input, .colorize_rows textarea, .colorize_rows select')
-  fields.focus(function() { $(this).parents('.row').addClass('focus'); });
-  fields.blur(function() { $(this).parents('.row').removeClass('focus'); });
-
-  // Put all your javascript code here ...
-
 });
