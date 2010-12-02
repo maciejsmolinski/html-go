@@ -1,5 +1,7 @@
 $(function(){
 
+  $('body').addClass('js');
+
   if($.browser.msie)
   {
     // Colorize odd rows
