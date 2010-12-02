@@ -10,16 +10,17 @@
 
 ----------------------------------------------------------------------- */
 
-/* site specific css: */
+
 body {font:12px/1.5 "Helvetica Neue",Helvetica,Arial,clean,sans-serif;color:#000}
 a {color:#06c;text-decoration:none}
 a:hover {color:#888}
 
 #header, #mainnav, #wrap, #footer {width:940px;margin:0 auto;position:relative;padding:0 10px}
+#mainnav {list-style:none;margin:0;padding:0}
 
 #header {}
   #logo {margin:0;padding:0}
-#mainnav {list-style:none}
+#mainnav {}
   #mainnav li {}
     #mainnav a {}
 #wrap {}
@@ -27,24 +28,23 @@ a:hover {color:#888}
   #content {}
 #footer {}
 
+
 /* browsers with javascript support dedicated css: */
 .js div { }
+
 
 /* media specific css : */
 @media print 
 {
     /* only print dedicated css */
-
 }
 
 @media screen 
 {
     /* only screen dedicated css */
-
 }
 
 @media handheld 
 {
     /* only handheld dedicated css */
-
 }
