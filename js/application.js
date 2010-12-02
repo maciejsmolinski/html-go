@@ -2,6 +2,20 @@ $(function(){
 
   $('body').addClass('js');
 
+  if(!$.browser.webkit)
+  {
+    // Simulate placeholder functionality
+    $('input[placeholder]').each(function() { 
+      $(this).attr('value') == '' ?  $(this).attr('value',$(this).attr('placeholder')) : true;
+    })
+    $('input[placeholder]').focus(function() { 
+      $(this).attr('value') == $(this).attr('placeholder') ?  $(this).attr('value','') : true;
+    })
+    $('input[placeholder]').blur(function() { 
+      $(this).attr('value') == '' ?  $(this).attr('value',$(this).attr('placeholder')) : true;
+    })
+  }
+
   if($.browser.msie)
   {
     // Colorize odd rows
