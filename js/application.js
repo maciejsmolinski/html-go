@@ -18,16 +18,11 @@ $(function(){
 
   if($.browser.msie)
   {
-    // Colorize odd rows
-    $('.colorize_rows > .row:odd').css({'background':'#eee'});
+    // IE6-notice [PL]
+    // $('#header').before('<div id="ie6-notice"><p id="ie6-text">Korzystasz ze starszej wersji przeglądarki Internet Explorer, przez co nasza strona może nie działać poprawnie. Proponujemy aktualizację oprogramowania do jednej z następujących przeglądarek: <a href="http://www.mozilla.com/firefox/">Firefox</a>, <a href="http://www.apple.com/safari/">Safari</a>, <a href="http://www.opera.com/">Opera</a> lub <a href="http://www.microsoft.com/windows/internet-explorer/">Internet Explorer 8</a><br /><br />Bardzo dziękujemy za wizytę!</p></div>');
+    // IE6-notice [EN]
+    $('#header').before('<div id="ie6-notice"><p id="ie6-text">You appear to be browsing this site using Internet Explorer 6. This browser is now out of date. For safer, more reliable browsing it is recommended that you upgrade your browser to to <a href="http://www.mozilla.com/firefox/">Firefox</a>, <a href="http://www.apple.com/safari/">Safari</a>, <a href="http://www.opera.com/">Opera</a>, or <a href="http://www.microsoft.com/windows/internet-explorer/">Internet Explorer 8</a>');
 
-    // Sometimes clearfix does not help
-    $('div:last-child').after('<div class="clear" />');
-
-    // Higlight selected field on focus by changing border-color
-    var ie_fields = $('input[type=text],input[type=password],textarea,select')
-    ie_fields.focus(function() { $(this).css({'border':'1px solid #9C9C9C'}) });
-    ie_fields.blur(function() { $(this).css({'border':'1px solid #ddd'}) });
   }
 
   // Add class to all inputs (ie. input[type=text] = input.text) - for IE (< 7) purposes mainly, if needed
