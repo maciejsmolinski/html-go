@@ -7,7 +7,7 @@ You wonder what **HTML-go** is, right ?
 It's purpose is to speed up your front-end development and diving into new projets. 
 It's a simple base. You choose what you need and remove all the code you don't. That's it!
 
-(current version: 0.9.1)
+(current version: 0.9.4)
 
 VIEW DEMO: [http://maciejsmolinski.com/framework/demo/](http://maciejsmolinski.com/framework/demo/)
 
@@ -23,7 +23,7 @@ That is directory structure I use in framework
 
 * HTML5 doctype
 * `js` class appended to body (if browser supports javascript)
-* jQuery 1.4.2 framework (served by google)
+* jQuery 1.4.4 framework (served by google)
 
 For IE:
 
@@ -46,19 +46,19 @@ For IE:
 
 ###Browsers with javascript support
 
-	<script type="text/javascript">document.documentElement.className += " js";</script>
+	$('body').addClass('js');
 
 > Appending `js` class to the body tag if the browser supports javascript [source](http://www.webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 
 
 ###jQuery
 
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 	<script type="text/javascript" src="js/application.js"></script>
 
 > Placing all javascript on the bottom of the page [to speed up site loading](http://developer.yahoo.com/performance/rules.html#js_bottom )
 > 
-> * `jQuery 1.4.2 min` is being served by google
+> * `jQuery 1.4.4 min` is being served by google
 > * `js/application.js` served locally, that's where the js magic takes place
 
 
@@ -66,7 +66,7 @@ For IE:
 
 	<link href="css/style-ie.css" rel="stylesheet" media="all" type="text/css" />
 
-> Targeting IE6 and above
+> Targeting IE9 and below
 
 
 ###HTML5 basic support for IE browsers
