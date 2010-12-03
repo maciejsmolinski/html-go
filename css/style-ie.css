@@ -9,6 +9,7 @@
 
 /* All versions dedicated css: */
 img {-ms-interpolation-mode:bicubic}
+#ie6-notice {display:none}
 
 
 /* IE7 and below dedicated css: */
