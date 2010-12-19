@@ -29,6 +29,8 @@ That is directory structure I use in framework
 * HTML5 basic support for IE browsers
 * Appended `.js` class to body tag if user's browser supports javascript - idea taken from [http://webkrauts.de)](http://webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)) - 
 
+## See unnecessary code ?
+
 `css/extended.css` is mostly form styling stylesheet, I use it to speed up my backend coding, if you don't wish to use it, just **delete the file and remove this line** from `css/style.css`:
 
 		@import url(extended.css);
