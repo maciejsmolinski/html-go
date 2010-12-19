@@ -23,7 +23,7 @@ That is directory structure I use in framework
 * **jQuery 1.4.4** provided by Google CDN
 * [Modified **IE6 Notice** PL/EN](http://shapeshed.github.com/ie6-notice/)
 * Separate **IE stylesheet**
-* **Appended `.js` class** to body tag if user's browser supports javascript - idea taken from [http://webkrauts.de](http://webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
+* **Appended `.js` class** to body tag if user's browser supports javascript
 
 ## Unnecessary code ?
 
@@ -37,6 +37,7 @@ Some code snippets and concepts are based on:
 
 * [YUI 3](http://developer.yahoo.com/yui/3/)
 * [Gerrit van Aaken's HTML/CSS/JS-Kickstart](http://praegnanz.de/weblog/htmlcssjs-kickstart)
+* [http://webkrauts.de](http://webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 
 ## Credits
 
