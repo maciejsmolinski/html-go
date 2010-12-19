@@ -14,7 +14,7 @@ input,textarea,select {font-family:inherit;font-size:inherit;font-weight:inherit
 a:hover,a:active {outline:none}
 a abbr,a acronym {cursor:pointer !important}
 abbr[title],acronym[title],dfn[title] {border-bottom: 1px dotted #888 !important;cursor:help}
-label,input[type=button],input[type=submit],button {cursor:pointer}
+label,input[type=button],input[type=submit],input[type=reset],button {cursor:pointer}
 ul {list-style-type:circle}
 ul,ol {list-style-position:inside}
 
@@ -52,6 +52,7 @@ img.right {margin-left:.417em}
 /* grids css: */
 .showgrid16 {background:url(../images/grids/16_col.gif)}
 .showgrid12 {background:url(../images/grids/12_col.gif)}
+/* append one of those classes to body tag if you'd like to see a grid background */
 
 /* html5 css: */
-header,nav,section,article,aside,footer {display:block}
+header,nav,section,article,aside,figure,hgroup,menu,footer {display:block}
