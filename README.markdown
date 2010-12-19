@@ -1,10 +1,7 @@
 # HTML-go
 
-You wonder what **HTML-go** is, right ?
-  
-  
-HTML-go is a **lightweight html/css/js framework**.
-It's purpose is to speed up your frontend development and diving into new projets. 
+A **lightweight html/css/js framework**.
+It's purpose is to **speed up frontend development** and diving into new projets. 
 It's a simple base. You choose what you need and remove all the code you don't. That's it!
 
 (current version: 0.9.5)
@@ -30,7 +27,7 @@ That is directory structure I use in framework
 
 ## Unnecessary code ?
 
-`css/extended.css` is mostly form styling stylesheet, I use it to speed up my backend coding, if you don't wish to use it, just **delete the file and remove this line** from `css/style.css`:
+`css/extended.css` is mostly form styling stylesheet, I use it to speed up my backend coding, if you don't wish to use it, just **delete the file and remove ** from `css/style.css` this line:
 
 		@import url(extended.css);
 
