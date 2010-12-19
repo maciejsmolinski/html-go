@@ -8,7 +8,7 @@ It's a simple base. You choose what you need and remove all the code you don't. 
 
 VIEW DEMO: [http://maciejsmolinski.com/framework/demo/](http://maciejsmolinski.com/framework/demo/)
 
-### Directory Stucture:
+## Directory Stucture:
 
 That is directory structure I use in framework
 
@@ -16,7 +16,7 @@ That is directory structure I use in framework
 * `js/` - all the javascript
 * `images/` - site images, remember to optimize them (<http://smush.it/>)
 
-### Framework in shortcut:
+## Framework in shortcut:
 
 * **HTML5** doctype
 * [**HEAD.JS**](http://headjs.com) responsible for loading scripts in parallel
@@ -25,19 +25,19 @@ That is directory structure I use in framework
 * Separate **IE stylesheet**
 * **Appended `.js` class** to body tag if user's browser supports javascript
 
-### Unnecessary code ?
+## Unnecessary code ?
 
 `css/extended.css` is mostly form styling stylesheet, I use it to speed up my backend coding, if you don't wish to use it, just **delete the file and remove ** from `css/style.css` this line:
 
 		@import url(extended.css);
 
-### Additional information
+## Additional information
 
 Some code snippets and concepts are based on:
 
 * [YUI 3](http://developer.yahoo.com/yui/3/)
 * [Gerrit van Aaken's HTML/CSS/JS-Kickstart](http://praegnanz.de/weblog/htmlcssjs-kickstart)
 
-### Credits
+## Credits
 
 Created by Maciej Smoliński (<http://maciejsmolinski.com>). No rights reserved
