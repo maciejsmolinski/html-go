@@ -16,7 +16,6 @@ img {-ms-interpolation-mode:bicubic}
 textarea {*overflow:auto}
 input,textarea,select {*font-size:100%}
 pre,code,kbd,samp,tt {*font-size:108%}
-input[type=submit] {*padding:.385em 1.7em !important}
 pre {*padding:1em 0; *width:100%; *height:100%; *overflow-x:scroll}
 
 

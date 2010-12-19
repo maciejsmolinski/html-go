@@ -3,10 +3,10 @@ fieldset {padding:1em 2em;margin:0 0 1.5em;border:1px solid #ddd;-moz-border-rad
 legend {color:#000;padding:0 .4em;font-weight:700} /* setting color, because legend doesn't inherit in IE */
 input[type=text],input[type=password],textarea,select {width:14em;padding:0.417em;border:1px solid #ddd}
 textarea {width:30em;height:12em}
-input[type=submit] {padding:.417em 3em;background:#808080;border:0;color:#fff;margin:1em 0}
+input[type=submit],input[type=reset] {padding:.417em 3em;background:#808080;border:0;color:#fff;margin:1em 0}
 input:focus,textarea:focus,select:focus {border:1px solid #9C9C9C}
 input[type=radio]:focus,input[type=checkbox]:focus {border:0;outline:1px solid #9C9C9C}
-input[type=submit]:focus {border:0}
+input[type=submit]:focus,input[type=reset]:focus {border:0}
 input[type=radio], input[type=checkbox] {margin:0 1em 0 0}
 .mid {width:20em !important}
 .long, textarea {width:26em !important}
@@ -40,9 +40,9 @@ tfoot td {color:#ADADAD}
 caption {width:100%}
 
 /* custom css: */
-input[type=submit], .row {-moz-border-radius:3px;border-radius:3px}
+input[type=submit],input[type=reset],.row {-moz-border-radius:3px;border-radius:3px}
 .section {border-bottom:1px solid #ccc;padding:0 0 .5em}
-.section, .subsection {margin:2em 0 1.5em}
+.section,.subsection {margin:2em 0 1.5em}
 
-/* IE7 fix: */
-input[type=submit] {*padding:.385em 1.7em !important}
+/* IE7 extended.css fix: */
+input[type=submit],input[type=reset] {*padding:.385em 1.7em !important}
