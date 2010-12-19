@@ -24,6 +24,8 @@ label.subject, label.block {display:block}
 .colorize_rows > .row:nth-child(odd) {background:#eee}
 .row {margin:.5em 0;padding:1em;clear:both}
 .col {width:50%;float:left}
+.cols3 .col {width:33%}
+.cols4 .col {width:25%}
 .row.focus {background:#FFFBD9 !important}
 .row address {margin:1.5em 0}
 
