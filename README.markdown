@@ -21,15 +21,14 @@ That is directory structure I use in framework
 
 ## Framework in shortcut:
 
-* HTML5 doctype
-* [HEAD.JS](http://headjs.com) responsible for loading scripts in parallel
-* [jQuery 1.4.4 provided by Google CDN](http://jquery.com/)
-* [Modified IE6 Notice PL/EN](http://shapeshed.github.com/ie6-notice/)
-* Separate IE stylesheet
-* HTML5 basic support for IE browsers
-* Appended `.js` class to body tag if user's browser supports javascript - idea taken from [http://webkrauts.de)](http://webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)) - 
+* **HTML5** doctype
+* [**HEAD.JS**](http://headjs.com) responsible for loading scripts in parallel
+* **jQuery 1.4.4** provided by Google CDN
+* [Modified **IE6 Notice** PL/EN](http://shapeshed.github.com/ie6-notice/)
+* Separate **IE stylesheet**
+* **Appended `.js` class** to body tag if user's browser supports javascript - idea taken from [http://webkrauts.de)](http://webkrauts.de/2008/12/14/sehr-sehr-schnelle-seiten-website-performance-best-practice-teil-2/)
 
-## See unnecessary code ?
+## Unnecessary code ?
 
 `css/extended.css` is mostly form styling stylesheet, I use it to speed up my backend coding, if you don't wish to use it, just **delete the file and remove this line** from `css/style.css`:
 
