@@ -21,12 +21,15 @@ a:hover {color:#888}
 
 #header {}
   #logo {margin:0;padding:0}
+
 #mainnav {}
   #mainnav li {}
-    #mainnav a {}
+  #mainnav a {}
+
 #wrap {}
   #sidebar {}
   #content {}
+
 #footer {}
 
 
@@ -35,17 +38,17 @@ a:hover {color:#888}
 
 
 /* media specific css : */
-@media print 
+@media print
 {
     /* only print dedicated css */
 }
 
-@media screen 
+@media screen
 {
     /* only screen dedicated css */
 }
 
-@media handheld 
+@media handheld
 {
     /* only handheld dedicated css */
 }
