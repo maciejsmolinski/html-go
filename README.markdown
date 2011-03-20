@@ -1,35 +1,38 @@
 # HTML-go
 
-A **lightweight html/css/js framework**.
-It's purpose is to **speed up frontend development** and diving into new projets. 
-It's a simple base. You choose what you need and remove all the code you don't. That's it!
+Basic html document structure provided to simplify and speed up PSD to HTML/CSS/JS development.
 
-(current version: 0.9.5)
+Despite its simplicity, HTML-go is still modular - you choose what you need and remove all the code you don't!
 
-VIEW DEMO: [http://maciejsmolinski.com/framework/demo/](http://maciejsmolinski.com/framework/demo/)
+(current version: 0.9.6)
+
+DEMO using extended.css: [http://maciejsmolinski.com/framework/demo/](http://maciejsmolinski.com/framework/demo/)
+
+
+## Framework in shortcut:
+
+* **HTML5** doctype (there are two versions index file: with html5 markup and with html4 markup)
+* **jQuery 1.4.4** provided by Google CDN
+* Modified [**IE6 Notice**](http://shapeshed.github.com/ie6-notice/) PL/EN
+* Separate **IE stylesheet** with legend (how to hack custom IE version)
+* **Appended `.js` class** to body tag if user's browser supports javascript
+
 
 ## Directory Stucture:
 
-That is directory structure I use in framework
+The directory structure used in framework:
 
 * `css/` - css stylesheets
 * `js/` - all the javascript
 * `images/` - site images, remember to optimize them (<http://smush.it/>)
 
-## Framework in shortcut:
-
-* **HTML5** doctype
-* [**HEAD.JS**](http://headjs.com) responsible for loading scripts in parallel
-* **jQuery 1.4.4** provided by Google CDN
-* [Modified **IE6 Notice** PL/EN](http://shapeshed.github.com/ie6-notice/)
-* Separate **IE stylesheet**
-* **Appended `.js` class** to body tag if user's browser supports javascript
 
 ## Unnecessary code ?
 
-`css/extended.css` is mostly form styling stylesheet, I use it to speed up my backend coding, if you don't wish to use it, just **delete the file and remove ** from `css/style.css` this line:
+`css/extended.css` is mostly form styling stylesheet, I use it to speed up my backend coding. If you don't wish to use it, just **delete the file and remove ** from `css/style.css` this line:
 
 		@import url(extended.css);
+
 
 ## Additional information
 
