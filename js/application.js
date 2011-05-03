@@ -19,12 +19,13 @@
 
     // all javascript code here
 
-    // $('#map').gMap({
-    //   markers: [{ address: "Poznań, Tęczowa 19a",
-    //               html: "<strong>MSM EVENTS Sp. z o.o.</strong><br />ul. Tęczowa 19a, 60-275 Poznań",
-    //               popup: true }],
-    //   zoom: 15
-    // });
+
+    $('#map').gMap({
+      markers: [{ address: "New York",
+                  html: "<strong>CompanyName</strong><br />Address, 00000 New York",
+                  popup: true }],
+      zoom: 15
+    });
 
     // $("#carousel").carousel({
     //   dispItems: 1,
@@ -37,6 +38,19 @@
     //   effect: 'fade'
     // });
 
+    // if($.flash.available)
+    // {
+
+    //   // Hide "Get Adobe Flash Player" button:
+    //   $('#install-flash-notice').hide();
+
+    //   // Insert flash:
+    //   $('#header').flash({
+    //     swf: 'images/content/header.swf',
+    //     width: 960, height: 120
+    //   });
+
+    // }
 
     if($.browser.msie)
     {
